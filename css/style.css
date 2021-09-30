@@ -5,7 +5,7 @@
   --secondary-color: #1b206e;
 }
 
-/* BASE STYLES */
+/*  BASE STYLES  */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -42,7 +42,7 @@ section.home {
   margin-top: 0;
 }
 
-/* BUTTON */
+/*  BUTTON  */
 .btn {
   cursor: pointer;
   display: inline-block;
@@ -67,7 +67,7 @@ section.home {
   z-index: 20;
 }
 
-/* TOGGLE */
+/*  TOGGLE  */
 .toggle {
   position: fixed;
   top: 0;
@@ -89,7 +89,7 @@ section.home {
   background-repeat: no-repeat;
 }
 
-/* NAVIGATION */
+/*  NAVIGATION  */
 .navigation {
   position: fixed;
   top: 0;
@@ -150,7 +150,7 @@ section.home {
   transform: scale(0.5);
 }
 
-/* HOMEPAGE */
+/*  HOMEPAGE  */
 .home-content {
   position: relative;
   z-index: 10;
@@ -165,7 +165,7 @@ section.home {
   width:70%
 }
 
-/* SERVICES PAGE */
+/*  SERVICES PAGE  */
 .services {
   margin-top: 40px;
   display: grid;
@@ -193,7 +193,7 @@ section.home {
   max-width: 300px;
 }
 
-/* WORK PAGE */
+/*  WORK PAGE  */
 .portfolio {
   display: flex;
   flex-wrap: wrap;
@@ -239,7 +239,7 @@ section.home {
   padding: 5px 15px;
 }
 
-/* CONTACT */
+/*  CONTACT  */
 .contact {
   position: relative;
   width: 100%;
