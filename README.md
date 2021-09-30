@@ -1,4 +1,4 @@
-# Sneha-cafe-FRONT-END
+# Sneha-cafe-FRONT-END(HTML & CSS)
 
 ### This is just a basic websites(static), I only used CSS and HTML for this.
 
