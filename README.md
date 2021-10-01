@@ -1,6 +1,6 @@
 # Sneha-cafe-FRONT-END(HTML & CSS)
 
-### This is just a basic websites(static), I only used CSS and HTML for this.
+### This is just a basic website(static), I only used CSS and HTML for this.
 
 ### Trust me it is looking cool.
 
