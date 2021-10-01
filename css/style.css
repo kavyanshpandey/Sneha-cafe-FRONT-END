@@ -47,11 +47,13 @@ section.home {
   cursor: pointer;
   display: inline-block;
   background: var(--primary-color);
-  color: #fff;
   text-decoration: none;
   padding: 10px 30px;
   margin: 20px 0;
-  border: 0;
+  border-radius: 55px;
+  background-color: yellow;
+  color: black;
+  font-size: 15px;
 }
 
 .btn:hover {
