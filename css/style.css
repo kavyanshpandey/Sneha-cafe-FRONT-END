@@ -59,9 +59,10 @@ section.home {
 }
 
 .logo {
+  color: #fff;
   position: absolute;
-  top: 30px;
-  left: 100px;
+  top: 100px;
+  left: 520px;
   font-size: 2rem;
   font-weight: 700;
   z-index: 20;
@@ -154,15 +155,19 @@ section.home {
 .home-content {
   position: relative;
   z-index: 10;
+  top: .25px;
+  left: 370px;
   max-width: 600px;
+  color: #fff;
+  text-align: center;
 }
 
 .home-img {
   position: absolute;
   bottom: 0;
   right: 0;
-  height: 110%;
-  width:70%
+  height: 100%;
+  width:100%
 }
 
 /*  SERVICES PAGE  */
