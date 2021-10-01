@@ -52,10 +52,12 @@ section.home {
   padding: 10px 30px;
   margin: 20px 0;
   border: 0;
+  border-radius: 34px;
 }
 
 .btn:hover {
   transform: scale(0.98);
+  opacity: 8;
 }
 
 .logo {
@@ -72,8 +74,8 @@ section.home {
   position: fixed;
   top: 0;
   right: 0;
-  width: 60px;
-  height: 60px;
+  width: 39px;
+    height: 36px;
   background: var(--primary-color) url(../images/menu.png);
   background-size: 30px;
   background-position: center;
@@ -302,6 +304,7 @@ section.home {
   letter-spacing: 2px;
   font-weight: 300;
   border: 0;
+  border-radius: 46px;
   cursor: pointer;
 }
 
