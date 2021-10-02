@@ -57,7 +57,10 @@ section.home {
 }
 
 .btn:hover {
-  transform: scale(0.98);
+  
+  background-color: #111;
+  color: yellow;
+  transition: 0.5s;
 }
 
 .logo {
@@ -68,6 +71,7 @@ section.home {
   font-weight: 700;
   z-index: 20;
 }
+
 
 /*  TOGGLE  */
 .toggle {
@@ -128,6 +132,7 @@ section.home {
 
 .navigation ul li a:hover {
   color: var(--primary-color);
+  
 }
 
 .navigation .social-bar {
@@ -182,6 +187,7 @@ section.home {
 
 .services .service:hover {
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  transition: 0.5;
 }
 
 .services .service h2 {
