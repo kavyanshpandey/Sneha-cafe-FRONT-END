@@ -6,7 +6,9 @@
 
 ### Please find the screenshots for the same.
 
-### Thanks for visiting.Good day
+### Thanks for visiting.
+
+### Good day
 
 ![alt text](https://github.com/kavyanshpandey/Sneha-cafe-FRONT-END/blob/master/images/pic1.png)
 ![alt text](https://github.com/kavyanshpandey/Sneha-cafe-FRONT-END/blob/master/images/pic2.png)
