@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
 
 :root {
   --primary-color: #f8d71f;
@@ -14,7 +14,7 @@
 
 html,
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #111;
   background-color: bisque;
 }
@@ -64,9 +64,16 @@ section.home {
   position: absolute;
   top: 30px;
   left: 100px;
+  color: #ffffff;
+  text-shadow: 2px 2px 8px #000000;
   font-size: 2rem;
   font-weight: 700;
   z-index: 20;
+}
+
+.logo.active {
+  color: #000000;
+  text-shadow: 2px 2px 8px #e0e0e0;
 }
 
 /*  TOGGLE  */
@@ -153,6 +160,15 @@ section.home {
 }
 
 /*  HOMEPAGE  */
+.home {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .home-content {
   position: relative;
   z-index: 10;
@@ -161,10 +177,10 @@ section.home {
 
 .home-img {
   position: absolute;
-  bottom: 0;
-  right: 0;
-  height: 110%;
-  width:70%
+  width: 100%;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center center;
 }
 
 /*  SERVICES PAGE  */
@@ -296,7 +312,7 @@ section.home {
   height: 150px;
 }
 
-.contact-form .row input[type='submit'] {
+.contact-form .row input[type="submit"] {
   background-color: var(--secondary-color);
   color: #fff;
   margin: 0;
@@ -334,14 +350,20 @@ section.home {
 }
 
 @media (max-width: 1068px) {
-  .home-img {
-    display: none;
-  }
-
   .logo {
     top: 10px;
     left: 40px;
     font-size: 1.5rem;
+    color: #000000;
+    text-shadow: 2px 2px 8px #e0e0e0;
+  }
+
+  .home-img {
+    position: absolute;
+    width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center center;
   }
 
   section {
@@ -383,6 +405,15 @@ section.home {
 }
 
 @media (max-width: 768px) {
+  .logo {
+    color: #000000;
+    text-shadow: 2px 2px 8px #e0e0e0;
+  }
+
+  .home-img {
+    display: none;
+  }
+
   .services {
     grid-template-columns: 1fr;
   }
