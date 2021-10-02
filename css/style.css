@@ -16,8 +16,8 @@ html,
 body {
   font-family: 'Poppins', sans-serif;
   color: #111;
+  background-color: bisque;
 }
-
 h1 {
   font-size: 30px;
   font-weight: 500;
