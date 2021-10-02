@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
 
 :root {
   --primary-color: #f60f20;
@@ -14,7 +14,7 @@
 
 html,
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #111;
 }
 
@@ -48,6 +48,7 @@ section.home {
   display: inline-block;
   background: var(--primary-color);
   color: #fff;
+  border-radius: 20px;
   text-decoration: none;
   padding: 10px 30px;
   margin: 20px 0;
@@ -162,7 +163,7 @@ section.home {
   bottom: 0;
   right: 0;
   height: 110%;
-  width:70%
+  width: 70%;
 }
 
 /*  SERVICES PAGE  */
@@ -294,7 +295,7 @@ section.home {
   height: 150px;
 }
 
-.contact-form .row input[type='submit'] {
+.contact-form .row input[type="submit"] {
   background-color: var(--secondary-color);
   color: #fff;
   margin: 0;
