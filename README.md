@@ -7,6 +7,10 @@
 ### Please find the screenshots for the same.
 <!-- i have added a dark mode feature in this website some one please set the button position accordingly i have just made it simple and light -->
 
+### Thanks for visiting.
+
+### Good day
+
 ![alt text](https://github.com/kavyanshpandey/Sneha-cafe-FRONT-END/blob/master/images/pic1.png)
 ![alt text](https://github.com/kavyanshpandey/Sneha-cafe-FRONT-END/blob/master/images/pic2.png)
 
