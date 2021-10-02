@@ -67,6 +67,8 @@ section.home {
   z-index: 20;
 }
 
+
+
 /*  TOGGLE  */
 .toggle {
   position: fixed;
@@ -142,6 +144,11 @@ section.home {
 .navigation .social-bar a {
   display: inline-block;
   transform: scale(0.5);
+
+}
+.navigation .social-bar a :hover{
+  transform:scale(1.1);
+  transition:all 0.3s ease-out;
 }
 
 .navigation .email-icon {
@@ -153,6 +160,7 @@ section.home {
 /*  HOMEPAGE  */
 .home-content {
   position: relative;
+  right:160px ;
   z-index: 10;
   max-width: 600px;
 }
@@ -180,6 +188,8 @@ section.home {
 
 .services .service:hover {
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  transform:scale(1.1);
+  transition:all 0.3s ease-out;
 }
 
 .services .service h2 {
