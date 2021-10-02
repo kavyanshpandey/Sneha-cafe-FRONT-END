@@ -15,3 +15,4 @@
 ![alt text](https://github.com/kavyanshpandey/Sneha-cafe-FRONT-END/blob/master/images/pic2.png)
 
 ### Thanks
+### Hope you like it ! Feel free to contribute
