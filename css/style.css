@@ -15,11 +15,11 @@
 html,
 body {
   font-family: "Poppins", sans-serif;
-  color: #111;
-  background-color: bisque;
+  color: rgb(56, 38, 38);
+  background-color: rgb(240, 188, 124);
 }
 h1 {
-  font-size: 40px;
+  font-size: 43px;
   font-weight: 480;
 }
 
@@ -31,10 +31,10 @@ p {
 section {
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: 102vh;
   align-items: center;
-  padding: 100px;
-  margin-top: 70px;
+  padding: 102px;
+  margin-top: 72px;
 }
 
 section.home {
@@ -64,8 +64,8 @@ section.home {
   position: absolute;
   top: 30px;
   left: 100px;
-  color: #ffffff;
-  text-shadow: 2px 2px 8px #000000;
+  color: #fff2f2;
+  text-shadow: 2px 2px 8px #1a1818;
   font-size: 2rem;
   font-weight: 700;
   z-index: 20;
