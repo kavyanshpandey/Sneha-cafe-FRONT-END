@@ -6,6 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
     <title>Creative Agency</title>
+    <style>
+      .logo:hover{
+        transform: scale(1.1);
+        cursor: pointer;
+      }
+      .sendbtn:hover{
+        transform: scale(1.03);
+      }
+    </style>
   </head>
   <body>
     <header>
@@ -63,7 +72,7 @@
 
 
 
-<button class="btn" type="button" onclick= "king()" >Dark Mode</button>
+<button class="btn" style="display: flex; margin: auto; margin-top: 20px;" type="button" onclick= "king()" >Dark Mode</button>
 
 
 
@@ -73,8 +82,8 @@
 
     <section>
       <div class="title">
-        <h1>Contact us</h1>
-        <p>
+        <h1 style="text-align: center; margin-top: -140px;">Contact us</h1>
+        <p style="text-align: center; ">
           We are always happy to here from your side,<br>
           kindly submit your feedback or queries by filling this form.
         </p>
@@ -105,7 +114,7 @@
             </div>
             <div class="row">
               <div class="input100">
-                <input type="submit" value="Send" />
+                <input type="submit" class="sendbtn" style=" display: flex; text-align: center; padding-left: 50px; padding-right: 50px; width: fit-content; margin: auto;" value="Send" />
               </div>
             </div>
           </form>
