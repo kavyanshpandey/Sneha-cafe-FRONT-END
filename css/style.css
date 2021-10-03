@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@500;800&display=swap');
 
 :root {
   --primary-color: #f8d71f;
@@ -173,6 +174,24 @@ section.home {
   position: relative;
   z-index: 10;
   max-width: 600px;
+}
+
+.combo-content {
+  position: relative;
+  z-index: 10;
+  max-width: 600px;
+  color: white;
+  font-family: 'Bodoni Moda', serif;
+}
+
+.combo-content h1{
+  font-size: 70px;
+  font-weight: 800;
+}
+
+.combo-content p, .combo-content li{
+  font-size: 23px;
+  font-weight: 500;
 }
 
 .home-img {
