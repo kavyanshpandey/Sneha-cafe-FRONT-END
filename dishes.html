@@ -3,6 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <!-- ---------------------------- -->
+   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+		<!-- Aos styled_link -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
     <title>Sneha's Cafe Dishes</title> 
@@ -24,10 +27,10 @@
       <div class="toggle"></div>
       <div class="navigation">
         <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="dishes.html">Dishes</a></li>
-          <li><a href="combo.html">Our Special Combo's</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="index.html" class="underLine">Home</a></li>
+          <li><a href="dishes.html" class="underLine">Dishes</a></li>
+          <li><a href="combo.html" class="underLine">Our Special Combo's</a></li>
+          <li><a href="contact.html" class="underLine">Contact</a></li>
         </ul>
         <div class="social-bar">
           <ul>
@@ -92,7 +95,7 @@
         </p>
       </div>
       <div class="services">
-        <div class="service">
+        <div class="service" data-aos="fade-right">
           <div class="icon">
             <img src="images/Noodles.jpg" alt="" />
           </div>
@@ -100,7 +103,7 @@
           Chilli Garlic Noodles, Hakka Noodles
           
         </div>
-        <div class="service">
+        <div class="service" data-aos="zoom-in">
           <div class="icon">
             <img src="images/pizza.jpeg" alt="" />
           </div>
@@ -108,63 +111,63 @@
           Cheese Pizza, Capsicum Pizza, Fresh Tomatto Pizza
           
         </div>
-        <div class="service">
+        <div class="service" data-aos="fade-left">
           <div class="icon">
             <img src="images/Dosa.jpeg" alt="" />
           </div>
           <h2>Dosa</h2>
           South Indian Special
           </div>
-        <div class="service">
+        <div class="service" data-aos="fade-right">
           <div class="icon">
             <img src="images/pasta.jpg" alt="" />
           </div>
           <h2>Pasta</h2>
           Red Sauce and White Sauce
         </div>
-        <div class="service">
+        <div class="service" data-aos="zoom-in">
           <div class="icon">
             <img src="images/burger.jfif" alt="" />
           </div>
           <h2>Burger</h2>
           Crispy Veg and non Non-Veg burgers
         </div>
-        <div class="service">
+        <div class="service" data-aos="fade-left">
           <div class="icon">
             <img src="images/omlet.jfif" alt="" />
           </div>
           <h2>Omelette</h2>
           Bread wrapped Omelette with sour Sauce
         </div>
-        <div class="service">
+        <div class="service" data-aos="fade-right">
           <div class="icon">
             <img src="images/cake.jpeg" alt="" />
           </div>
           <h2>Cake</h2>
           Chocolate- Strawberry cake, hmmm You will like it:-)
         </div>
-        <div class="service">
+        <div class="service" data-aos="zoom-in">
           <div class="icon">
             <img src="images/icecream.jpg.crdownload" alt="" />
           </div>
           <h2>Ice-Cream</h2>
           All available.
       </div>
-      <div class="service">
+      <div class="service" data-aos="fade-left">
           <div class="icon">
             <img src="images/cuisine.jpg" alt="" />
           </div>
           <h2>Cuisine</h2>
           Cuisine Australia, hmmm You will like it:-)
         </div>
-        <div class="service">
+        <div class="service" data-aos="fade-right">
           <div class="icon">
             <img src="images/cripsy.jpg" alt="" />
           </div>
           <h2>Cripsy</h2>
          Cripsy'Australia, hmmm You will like it:-)
         </div>
-        <div class="service">
+        <div class="service" data-aos="zoom-in">
           <div class="icon">
             <img src="images/steak.jpg" alt="" />
           </div>
@@ -172,6 +175,7 @@
           Steak, hmmm You will like it:-)
         </div>
     </section>
+master
     <br>
     <hr>
     <br>
@@ -181,6 +185,18 @@
     </footer>
 
 
+=======
+    <!-- script files link here -->
+		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+		<script>
+			// Animation------------------------------------
+			AOS.init({
+				duration: 900,
+				offset: 220,
+				easing: 'ease-in-out-quad',
+			});
+		</script>
+ master
     <script src="js/script.js"></script>
   </body>
 </html>
