@@ -179,6 +179,19 @@ section.home {
 }
 
 /*  HOMEPAGE  */
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translatex(-100px);
+  }
+  80% {
+    transform: translatex(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
 .home {
 	position: relative;
 	width: 100%;
@@ -195,6 +208,7 @@ section.home {
 	display: flex;
 	align-items: center;
 	flex-direction: column;
+	animation: moveInLeft 4s;
 }
 .home-content h1,
 .home-content p {
