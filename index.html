@@ -3,6 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- ---------------------------- -->
+   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+		<!-- Aos styled_link -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
     <title>Sneha's Cafe</title>
@@ -14,11 +17,11 @@
       <div class="toggle"></div>
       <div class="navigation">
         <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="dishes.html">Dishes</a></li>
-          <li><a href="combo.html">Our Special Combo's</a></li>
-          <li><a href="contact.html">Contact</a></li>
-          <li><a href="review.html">Customer Reviews</a></li>
+          <li><a href="index.html" class="underLine">Home</a></li>
+          <li><a href="dishes.html" class="underLine">Dishes</a></li>
+          <li><a href="combo.html" class="underLine">Our Special Combo's</a></li>
+          <li><a href="contact.html" class="underLine">Contact</a></li>
+          <li><a href="review.html" class="underLine">Customer Reviews</a></li>
         </ul>
         <div class="social-bar">
           <ul>
@@ -76,7 +79,7 @@
     <section class="home">
       <img src="images/food.jpeg" class="home-img" alt="" />
       
-      <div class="home-content">
+      <div class="home-content" data-aos="fade-up">
         <h1>
           Hi! I'm Sneha and<br>
           Welcome to my cafe!
@@ -91,5 +94,15 @@
     </section>
 
     <script src="js/script.js"></script>
+    <!-- script files link here -->
+		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+		<script>
+			// Animation------------------------------------
+			AOS.init({
+				duration: 900,
+				offset: 220,
+				easing: 'ease-in-out-quad',
+			});
+		</script>
   </body>
 </html>
