@@ -5,6 +5,46 @@
   --secondary-color: #1b206e;
 }
 
+/*********** Typewriting Text ***************/
+
+.typewriter {
+  font-family: 'Arapey', serif;
+  /* font-family: Courier, monospace; */
+display: inline-block;
+}
+
+.typewriter-text {
+  display: inline-block;
+  overflow: hidden;
+  letter-spacing: 2px;
+ animation: typing 2s steps(30, end), blink .75s step-end infinite;
+  white-space: nowrap;
+  font-size: 43px;
+  font-weight: 700;
+  border-right: 4px solid black;
+  box-sizing: border-box;
+}
+
+@keyframes typing {
+  from { 
+      width: 0% 
+  }
+  to { 
+      width: 100% 
+  }
+}
+
+@keyframes blink {
+  from, to { 
+      border-color: transparent 
+  }
+  50% { 
+      border-color: black; 
+  }
+}
+
+/**************Typewriting Ends ***************/
+
 /*  BASE STYLES  */
 * {
   box-sizing: border-box;
@@ -18,6 +58,9 @@ body {
   color: #111;
   background-color: bisque;
 }
+
+
+
 h1 {
   font-size: 40px;
   font-weight: 480;
@@ -51,13 +94,16 @@ section.home {
   padding: 10px 30px;
   margin: 20px 0;
   border-radius: 55px;
-  background-color: yellow;
-  color: black;
+  background-color: rgba(0, 0, 0, 0.712);
+  color: white;
   font-size: 15px;
 }
 
 .btn:hover {
   transform: scale(0.98);
+  background-color:white; color:black;
+  font-weight: bold;
+
 }
 
 .logo {
@@ -69,6 +115,9 @@ section.home {
   font-size: 2rem;
   font-weight: 700;
   z-index: 20;
+  font-family: 'Sacramento', cursive;
+  /* text-decoration: underline; */
+  font-style: italic;
 }
 
 .logo.active {
@@ -83,7 +132,8 @@ section.home {
   right: 0;
   width: 60px;
   height: 60px;
-  background: var(--primary-color) url(../images/menu.png);
+  /* background: var(--primary-color) url(../images/menu.png); */
+  background: rgba(0, 0, 0, 0.712) url(../images/menu.png);
   background-size: 30px;
   background-position: center;
   background-repeat: no-repeat;
@@ -92,7 +142,7 @@ section.home {
 }
 
 .toggle.active {
-  background: var(--primary-color) url(../images/close.png);
+  background: rgba(0, 0, 0, 0.712) url(../images/close.png);
   background-size: 25px;
   background-position: center;
   background-repeat: no-repeat;
@@ -173,6 +223,10 @@ section.home {
   position: relative;
   z-index: 10;
   max-width: 600px;
+  line-height: 1.5;
+}
+.underline{
+  text-decoration: underline;
 }
 
 .home-img {
