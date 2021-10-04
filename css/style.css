@@ -190,14 +190,34 @@ section.home {
   grid-template-columns: repeat(3, 1fr);
   gap: 40px;
   text-align: center;
-}
+  transition: all 0.5s ease;
 
+}
+.service::after {
+	position: absolute;
+	content: '';
+	width: 50px;
+	height: 50px;
+	background-color: #e76ad6;
+	border-radius: 50%;
+	top: -20px;
+	right: -20px;
+	z-index: -1;
+	transition: all 0.9s ease;
+}
+.service:hover.service::after {
+	transform: scale(22);
+}
 .services .service {
   padding: 30px;
+  transition: all 0.5s ease;
+  overflow: hidden;
+  position: relative;
 }
 
 .services .service:hover {
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+
 }
 
 .services .service h2 {
