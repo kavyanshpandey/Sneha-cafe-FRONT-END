@@ -66,9 +66,35 @@ section.home {
   font-weight: 700;
   z-index: 20;
 }
+.logo :hover{
 
+color: coral;
+transform:scale(1.1);
+transition:all 0.3s ease-out;
+}
 
+.logo a{
 
+  position: relative;
+  display: block;
+ 
+}
+
+.logo a:hoverspan{
+  max-width: 100%;
+   opacity: 0;
+    filter: alpha(opacity=3);
+    -webkit-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+.logo :hover:before{
+  content: ' ';
+}
+.logo :hover:after{
+  content: '☕️';
+}
 /*  TOGGLE  */
 .toggle {
   position: fixed;
@@ -76,10 +102,10 @@ section.home {
   right: 0;
   width: 60px;
   height: 60px;
-  background: var(--primary-color) url(../images/menu.png);
+  background: var(--primary-color) ;
   background-size: 30px;
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   z-index: 20;
   cursor: pointer;
 }
