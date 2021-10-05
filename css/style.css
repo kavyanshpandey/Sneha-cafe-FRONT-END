@@ -513,7 +513,7 @@ section.home {
   color: #4b4b4b;
 }
 .testimonial-box:hover{
-  transform: translateY(-10px);
+  transform: translateY(-12px);
   transition: all ease 0.3s;
 }
 
