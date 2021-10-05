@@ -21,11 +21,13 @@ body {
 h1 {
 	font-size: 40px;
 	font-weight: 480;
+	color: rgb(25, 2, 15);
 }
 
 p {
 	margin: 20px 0 10px;
 	font-size: 1.1rem;
+	color: rgb(47, 42, 45);
 }
 
 section {
