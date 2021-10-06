@@ -83,7 +83,7 @@ section.home {
 	right: 0;
 	width: 60px;
 	height: 60px;
-	background: var(--primary-color) url(../images/menu.png);
+	background:  url(../images/menu.png);
 	background-size: 30px;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -196,6 +196,9 @@ section.home {
 	display: flex;
 	align-items: center;
 	flex-direction: column;
+	color: #fff;
+	right: -300px;
+	bottom: 50px;
 }
 @keyframes moveInLeft {
   0% {
