@@ -196,6 +196,8 @@ section.home {
 	display: flex;
 	align-items: center;
 	flex-direction: column;
+	color: white;
+	
 }
 @keyframes moveInLeft {
   0% {
