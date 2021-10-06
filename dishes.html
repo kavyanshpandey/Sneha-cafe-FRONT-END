@@ -23,7 +23,7 @@
   </head>
   <body>
     <header>
-      <div class="logo">Sneha's Cafe</div>
+      <div class="logo" style="margin-top: 40px;">Sneha's Cafe</div>
       <div class="toggle"></div>
       <div class="navigation">
         <ul>
@@ -66,11 +66,13 @@
     if (document.body.style.backgroundColor =="grey"){
       document.body.style.backgroundColor = "white"
       document.body.style.Color = "black"
+      document.getElementById("mode").innerHTML = "Dark Mode";
 
     }
     else{
       document.body.style.backgroundColor = "grey";
       document.body.style.Color = "blue"
+      document.getElementById("mode").innerHTML = "Light Mode";
 
     }
   }
@@ -78,7 +80,7 @@
 
 
 
-<button class="btn" type="button" onclick= "king()" >Dark Mode</button>
+<button class="btn" style="margin-left: 20px;"  type="button" id="mode" onclick= "king()" >Dark Mode</button>
 
 
 
