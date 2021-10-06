@@ -191,6 +191,7 @@ section.home {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	animation: moveInLeft 4s;
 }
 
 .home-content {
@@ -200,6 +201,19 @@ section.home {
 	display: flex;
 	align-items: center;
 	flex-direction: column;
+}
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translatex(-100px);
+  }
+  80% {
+    transform: translatex(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
 }
 .home-content h1,
 .home-content p {
