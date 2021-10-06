@@ -333,6 +333,11 @@ section.home {
 	margin: 0 10px;
 }
 
+.contact-form .input150 {
+	width: 150%;
+	margin: 0 10px;
+}
+
 .contact-form .row input,
 .contact-form .row textarea {
 	position: relative;
@@ -342,6 +347,7 @@ section.home {
 	width: 100%;
 	padding: 10px;
 	outline: none;
+	letter-spacing: 2px;
 	font-size: 16px;
 	font-weight: 300;
 	margin: 10px 0;
