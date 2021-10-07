@@ -1,65 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- ---------------------------- -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- Aos styled_link -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="https://img-premium.flaticon.com/png/512/4594/premium/4594828.png?token=exp=1633490558~hmac=787a7e8f464c8daf3b270f60d5241cfd" />
     <title>Sneha's Cafe</title>
-  </head>
-  <body>
+</head>
+
+<body>
     <header>
-      <div class="logo">Sneha's Cafe</div>
-      <div class="toggle"></div>
-      <div class="navigation">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="dishes.html">Dishes</a></li>
-          <li><a href="combo.html">Our Special Combo's</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-        <div class="social-bar">
-          <ul>
-            <li>
-              <a href="https://facebook.com">
-                <img src="images/facebook.png" target="_blank" alt="" />
-              </a>
-            </li>
-            <li>
-              <a href="https://twitter.com">
-                <img src="images/twitter.png" target="_blank" alt="" />
-              </a>
-            </li>
-            <li>
-              <a href="https://instagram.com">
-                <img src="images/instagram.png" target="_blank" alt="" />
-              </a>
-            </li>
-          </ul>
-          <a href="mailto:you@email.com" class="email-icon">
-            <img src="images/email.png" alt="" />
-          </a>
+
+        <div class="logo">Sneha's Cafe</div>
+        <div class="toggle"></div>
+        <div class="navigation">
+            <ul>
+                <li><a href="index.html" class="underLine">Home</a></li>
+                <li><a href="dishes.html" class="underLine">Dishes</a></li>
+                <li><a href="combo.html" class="underLine">Our Special Combo's</a></li>
+                <li><a href="contact.html" class="underLine">Contact</a></li>
+                <li><a href="review.html" class="underLine">Customer Reviews</a></li>
+            </ul>
+            <div class="social-bar">
+                <ul>
+                    <li>
+                        <a href="https://facebook.com">
+                            <img src="images/facebook.png" target="_blank" alt="" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com">
+                            <img src="images/twitter.png" target="_blank" alt="" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://instagram.com">
+                            <img src="images/instagram.png" target="_blank" alt="" />
+                        </a>
+                    </li>
+                </ul>
+                <a href="mailto:you@email.com" class="email-icon">
+                    <img src="images/email.png" alt="" />
+                </a>
+            </div>
         </div>
-      </div>
     </header>
 
+
+    <!-- Dark Mode -->
+    <script type="text/javascript">
+        function king() {
+
+            if (document.body.style.backgroundColor == "grey") {
+                document.body.style.backgroundColor = "white"
+                document.body.style.Color = "black"
+
+            } else {
+                document.body.style.backgroundColor = "grey";
+                document.body.style.Color = "blue"
+
+            }
+        }
+    </script>
+
+
+
+
+
+
+
+
+
+
+
     <section class="home">
-      <img src="images/food.jpeg" class="home-img" alt="" />
-      
-      <div class="home-content">
-        <h1>
-          Hii, I am Sneha and<br>
-          Welcome to my cafe..
-        </h1>
-        <p>
-          You will get all kind of delicious food<br> here and
-          We have multiple varieties<br> including Italian and Chinese.<br>
-          Obiviously Indian food is our primary food.
-        </p>
-        <a href="dishes.html" class="btn">Select Your Food Now</a>
-      </div>
+        <img src="images/food.jpeg" class="home-img" alt="" />
+
+        <div class="home-content" data-aos="fade-up">
+            <h1>
+                Hi! I'm Sneha and<br> Welcome to my cafe!
+            </h1>
+            <p>
+                You will get all kinds of delicious food<br> here and We have multiple varieties<br> including Italian and Chinese.<br> Indian food is our primary food.
+            </p>
+            <a href="dishes.html" class="btn">Select Your Food Now</a>
+        </div>
+        <button class="btn" type="button" onclick="king()">Dark Mode</button>
     </section>
 
     <script src="js/script.js"></script>
-  </body>
+    <!-- script files link here -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        // Animation------------------------------------
+        AOS.init({
+            duration: 900,
+            offset: 220,
+            easing: 'ease-in-out-quad',
+        });
+    </script>
+</body>
+
 </html>
