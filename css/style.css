@@ -54,6 +54,7 @@ section.home {
     text-decoration: none;
     padding: 10px 30px;
     margin: 20px 0;
+    margin:20px;
     border-radius: 55px;
     background-color: yellowgreen;
     color: black;
@@ -68,13 +69,17 @@ section.home {
     position: absolute;
     top: 30px;
     left: 100px;
-    color: yellowgreen;
-    text-shadow: 2px 2px 8px blueviolet;
+    color: rgb(221, 231, 200);
+    text-shadow: 2px 2px 8px rgba(236, 236, 236, 0.144);
     font-size: 3rem;
     font-weight: 700;
     z-index: 20;
-    background-color: burlywood;
+    background-color: rgb(34, 33, 33);
     border-radius: 10%;
+    padding:15px;
+    border-radius:7px;
+    border: solid 1.5px white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
 .logo.active {
@@ -97,6 +102,9 @@ section.home {
     background-repeat: no-repeat;
     z-index: 20;
     cursor: pointer;
+    margin:20px;
+    padding:5px;
+    border-radius: 2px;
 }
 
 .toggle.active {
@@ -104,6 +112,11 @@ section.home {
     background-size: 25px;
     background-position: center;
     background-repeat: no-repeat;
+    transform: scale(1.1);
+}
+.toggle:hover {
+   
+    transform: scale(1.1) ;
 }
 
 
@@ -210,7 +223,7 @@ section.home {
     display: flex;
     align-items: center;
     flex-direction: column;
-    color: orangered;
+    color: rgb(63, 63, 62);
     font-size: larger;
 }
 
