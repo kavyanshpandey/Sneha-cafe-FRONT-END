@@ -53,10 +53,12 @@
             if (document.body.style.backgroundColor == "grey") {
                 document.body.style.backgroundColor = "white"
                 document.body.style.Color = "black"
+                document.getElementById("mode").innerHTML = "Dark Mode";
 
             } else {
                 document.body.style.backgroundColor = "grey";
                 document.body.style.Color = "blue"
+                document.getElementById("mode").innerHTML = "Light Mode";
 
             }
         }
@@ -65,7 +67,7 @@
 
 
     <div align="center">
-        <button class="btn" type="button" onclick="king()">Dark Mode</button>
+         <button class="btn" type="button" id="mode" onclick="king()">Dark Mode</button>
     </div>
 
 
@@ -77,7 +79,7 @@
         <div class="title">
             <h1>Special Combo's</h1>
 
-            <h2 style="color: brown;font-weight: lighter;">Select your combo</h2>
+           <h2 style="color: brown;font-weight: lighter; text-align: center; font-family: Verdana, Geneva, Tahoma, sans-serif;">Select your combo</h2>
         </div>
 
         <div class="portfolio">
