@@ -11,6 +11,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    overflow: hidden;
 }
 
 html,
@@ -23,11 +24,13 @@ body {
 h1 {
     font-size: 40px;
     font-weight: 480;
+    color:rgb(255 171 54);
 }
 
 p {
     margin: 20px 0 10px;
-    font-size: 1.1rem;
+    font-size: 14px;
+    color: #ad9c9e;
 }
 
 section {
@@ -87,11 +90,11 @@ section.home {
 
 .toggle {
     position: fixed;
-    top: 0;
-    right: 0;
+    top: 15px;
+    right: 26px;
     width: 60px;
     height: 60px;
-    background: var(--primary-color) url(../images/menu.png);
+    background:  url(../images/menu.png);
     background-size: 30px;
     background-position: center;
     background-repeat: no-repeat;
@@ -210,6 +213,7 @@ section.home {
     display: flex;
     align-items: center;
     flex-direction: column;
+    left: 50px;
     color: orangered;
     font-size: larger;
 }
