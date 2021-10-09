@@ -63,6 +63,9 @@ section.home {
 .btn:hover {
     transform: scale(0.98);
 }
+.btn-dark{
+	padding: 10px 70px;
+}
 
 .logo {
     position: absolute;
@@ -413,6 +416,36 @@ section.home {
     color: #111;
 }
 
+@media (max-width: 768px) {
+	.logo {
+		color: #000000;
+		text-shadow: 2px 2px 8px #e0e0e0;
+	}
+	.services {
+		grid-template-columns: 1fr;
+	}
+	.services .service {
+		box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+	}
+
+	.home-img{
+		opacity: 0.5;
+	}
+	#dark-mode{
+		display: none;
+	}
+}
+@media (max-width: 500px) {
+   .home-content h1{
+	font-size: revert;
+   }
+   .home-content p{
+	font-size: smaller;
+   }
+   .navigation ul li a{
+	font-size: x-large;
+   }
+}
 
 /* icon */
 
@@ -482,6 +515,7 @@ section.home {
         box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
     }
 }
+
 
 #testimonials {
     display: flex;
@@ -608,16 +642,27 @@ section.home {
 }
 
 @media (max-width: 340px) {
-    .box-top {
+	.box-top {
+		flex-wrap: wrap;
+		margin-bottom: 10px;
+	}
+	.reviews {
+		margin-top: 10px;
+	}
+	.box-top {
         flex-wrap: wrap;
         margin-bottom: 10px;
     }
     .reviews {
         margin-top: 10px;
     }
+  .navigation ul li a{
+		font-size: revert;
+	 }
 }
 
 ::selection {
-    color: #ffffff;
-    background-color: #252525;
+	color: #ffffff;
+	background-color: #252525;
 }
+ 
