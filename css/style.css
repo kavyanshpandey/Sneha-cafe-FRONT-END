@@ -21,8 +21,9 @@ body {
 }
 
 h1 {
-    font-size: 40px;
-    font-weight: 480;
+  font-size: 40px;
+  font-weight: 480;
+  color: rgb(0, 13, 128);
 }
 
 p {
