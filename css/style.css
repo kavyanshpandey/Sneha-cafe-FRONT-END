@@ -55,12 +55,13 @@ section.home {
     padding: 10px 30px;
     margin: 20px 0;
     border-radius: 55px;
-    background-color: yellowgreen;
+    background-color:#f9f9f9;
     color: black;
     font-size: 15px;
 }
 
 .btn:hover {
+    color:chartreuse;
     transform: scale(0.98);
 }
 .btn-dark{
@@ -213,7 +214,7 @@ section.home {
     display: flex;
     align-items: center;
     flex-direction: column;
-    color: orangered;
+    color:#f9f9f9;
     font-size: larger;
 }
 
