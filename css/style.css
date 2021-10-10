@@ -514,6 +514,13 @@ section.home {
     .services .service {
         box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
     }
+    
+    .Footer {
+        position: relative;
+        top: 650vh;
+        text-align: center;
+        overflow: hidden;
+    }
 }
 
 
