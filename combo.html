@@ -12,7 +12,7 @@
 
 <body>
     <header>
-        <div class="logo">Sneha's Cafe</div>
+        <div class="logo" onclick="sendToHome()">Modern Cafe</div>
         <div class="toggle"></div>
         <div class="navigation">
             <ul>
@@ -20,8 +20,9 @@
                 <li><a href="dishes.html" class="underLine">Dishes</a></li>
                 <li><a href="combo.html" class="underLine">Our Special Combo</a></li>
                 <li><a href="contact.html" class="underLine">Contact</a></li>
+                <li><a href="review.html" class="underLine">Customer Reviews</a></li>
             </ul>
-            <div class="social-bar">
+            <!-- <div class="social-bar">
                 <ul>
                     <li>
                         <a href="https://facebook.com">
@@ -42,35 +43,15 @@
                 <a href="mailto:you@email.com" class="email-icon">
                     <img src="images/email.png" alt="" />
                 </a>
-            </div>
+            </div> -->
         </div>
     </header>
 
-    <!-- Dark Mode -->
-    <script type="text/javascript">
-        function king() {
 
-            if (document.body.style.backgroundColor == "grey") {
-                document.body.style.backgroundColor = "white"
-                document.body.style.Color = "black"
-
-            } else {
-                document.body.style.backgroundColor = "grey";
-                document.body.style.Color = "blue"
-
-            }
-        }
-    </script>
-
-
-
-    <div align="center">
-        <button class="btn" type="button" onclick="king()">Dark Mode</button>
-    </div>
-
-
-
-
+ <!-- Dark Mode -->
+ <div align="right">
+    <img class="btn-dark" src="https://img.icons8.com/ios-filled/40/000000/sun.png" onclick="dark()" />
+</div>
 
 
     <section>

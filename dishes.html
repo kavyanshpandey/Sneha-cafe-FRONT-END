@@ -10,7 +10,7 @@
     <!-- Aos styled_link -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
-    <title>Sneha's Cafe Dishes</title>
+    <title>Modern Cafe Dishes</title>
     <!--Added the css styling on footer-->
     <style>
         .Footer {
@@ -26,7 +26,7 @@
 
 <body>
     <header>
-        <div class="logo">Sneha's Cafe</div>
+        <div class="logo" onclick="sendToHome()">Modern Cafe</div>
         <div class="toggle"></div>
         <div class="navigation">
             <ul>
@@ -34,8 +34,9 @@
                 <li><a href="dishes.html" class="underLine">Dishes</a></li>
                 <li><a href="combo.html" class="underLine">Our Special Combo's</a></li>
                 <li><a href="contact.html" class="underLine">Contact</a></li>
+                <li><a href="review.html" class="underLine">Customer Reviews</a></li>
             </ul>
-            <div class="social-bar">
+            <!-- <div class="social-bar">
                 <ul>
                     <li>
                         <a href="https://facebook.com">
@@ -57,39 +58,16 @@
                     <img src="images/email.png" alt="" />
                 </a>
 
-            </div>
+            </div> -->
         </div>
     </header>
 
 
 
     <!-- Dark Mode -->
-    <script type="text/javascript">
-        function king() {
-
-            if (document.body.style.backgroundColor == "grey") {
-                document.body.style.backgroundColor = "white"
-                document.body.style.Color = "black"
-
-            } else {
-                document.body.style.backgroundColor = "grey";
-                document.body.style.Color = "blue"
-
-            }
-        }
-    </script>
-
-
-    <div align="center">
-        <button class="btn" type="button" onclick="king()">Dark Mode</button>
+    <div align="right">
+        <img class="btn-dark" src="https://img.icons8.com/ios-filled/40/000000/sun.png" onclick="dark()" />
     </div>
-
-
-
-
-
-
-
 
 
 
@@ -181,9 +159,9 @@
                 Steak, hmmm You will like it:-)
             </div>
     </section>
-    master
+
     <br>
-    <hr>
+
     <br>
     <!--Created a Footer-->
     <footer>
@@ -191,7 +169,7 @@
     </footer>
 
 
-    =======
+
     <!-- script files link here -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
@@ -202,7 +180,7 @@
             easing: 'ease-in-out-quad',
         });
     </script>
-    master
+
     <script src="js/script.js"></script>
 </body>
 
