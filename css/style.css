@@ -17,7 +17,7 @@ html,
 body {
     font-family: 'Poppins', sans-serif;
     color: #111;
-    background-color: bisque;
+    background-color: #343434;
 }
 
 h1 {
@@ -76,7 +76,7 @@ section.home {
     font-size: 3rem;
     font-weight: 700;
     z-index: 20;
-    background-color: burlywood;
+    background-color:#343434;
     border-radius: 10%;
 }
 
@@ -261,17 +261,19 @@ section.home {
 
 .services .service:hover {
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    background-color: #f8d71f;
 }
 
 .services .service h2 {
     font-size: 24px;
     font-weight: 500;
     margin-top: 20px;
-    color: var(--secondary-color);
+    color:white;
 }
 
 .services .service .icon img {
     max-width: 300px;
+    border-radius: 25px;
 }
 
 
@@ -451,8 +453,11 @@ section.home {
 
 .service {
     border-radius: 10%;
-    background-color: burlywood;
+    background-color: #343434;
+    box-shadow: 5px 5px 10px #191b1b, -5px -5px 10px #595959;
+    color :white;
 }
+
 
 @media (max-width: 1068px) {
     .logo {
@@ -665,4 +670,6 @@ section.home {
 	color: #ffffff;
 	background-color: #252525;
 }
- 
+ .title{
+     color: #e0e0e0;
+ }
