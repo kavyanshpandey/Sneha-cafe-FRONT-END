@@ -10,6 +10,8 @@
 
 ### Please find the screenshots for the same.
 <!-- i have added a dark mode feature in this website some one please set the button position accordingly i have just made it simple and light -->
+we serve some amazing menu in sneha cafe like pizza, burger, and many more we prepare this in a hygiene place and with lots of love.
+from love sneha cafa.
 
 ### Thanks for visiting.
 
