@@ -70,10 +70,12 @@
             if (document.body.style.backgroundColor == "grey") {
                 document.body.style.backgroundColor = "white"
                 document.body.style.Color = "black"
+                 document.getElementById("mo").innerHTML = "Dark Mode";
 
             } else {
                 document.body.style.backgroundColor = "grey";
                 document.body.style.Color = "blue"
+                 document.getElementById("mo").innerHTML = "Light Mode";
 
             }
         }
@@ -81,7 +83,7 @@
 
 
     <div align="center">
-        <button class="btn" type="button" onclick="king()">Dark Mode</button>
+        <button class="btn" type="button" id="mo" onclick="king()">Dark Mode</button>
     </div>
 
 
