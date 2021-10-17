@@ -376,6 +376,26 @@ section.home {
     resize: none;
 }
 
+/*GLOW EFFECT on FOCUS*/
+
+.contact-form .row input:focus,
+.contact-form .row textarea:focus {
+    position: relative;
+    outline: none;
+    border-color: #1b206e;
+    box-shadow: 0 0 10px #1b206e;
+    color: #111;
+    background: transparent;
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 10px 0;
+    resize: none;
+}
+
+
 .contact-form .row textarea {
     height: 150px;
 }
