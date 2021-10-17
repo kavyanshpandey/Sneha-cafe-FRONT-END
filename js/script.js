@@ -17,6 +17,15 @@ function dark() {
       document.body.style.backgroundColor = "grey";
       document.body.style.Color = "blue"
   }
+} 
+function Brown() {
+  if (document.body.style.backgroundColor == "Brown") {
+      document.body.style.backgroundColor = "Chocolate"
+      document.body.style.Color = "Sienna"
+  } else {
+      document.body.style.backgroundColor = "Brown";
+      document.body.style.Color = "Peru"
+  }
 }
 
 
