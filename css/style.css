@@ -212,13 +212,14 @@ section.home {
 }
 
 .home-content {
+    background-color: rgba(255,255,255,0.5);
     position: relative;
     z-index: 10;
     max-width: 600px;
     display: flex;
     align-items: center;
     flex-direction: column;
-    color: orangered;
+    color: rgb(27, 26, 25);
     font-size: larger;
 }
 
@@ -379,6 +380,26 @@ section.home {
     margin: 10px 0;
     resize: none;
 }
+
+/*GLOW EFFECT on FOCUS*/
+
+.contact-form .row input:focus,
+.contact-form .row textarea:focus {
+    position: relative;
+    outline: none;
+    border-color: #1b206e;
+    box-shadow: 0 0 10px #1b206e;
+    color: #111;
+    background: transparent;
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 10px 0;
+    resize: none;
+}
+
 
 .contact-form .row textarea {
     height: 150px;
