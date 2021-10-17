@@ -18,6 +18,16 @@ function dark() {
       document.body.style.Color = "blue"
   }
 }
+function YellowGreen() {
+  if (document.body.style.backgroundColor == "YellowGreen") {
+      document.body.style.backgroundColor = "OliveDrab"
+      document.body.style.Color = "SeaGreen"
+  } else {
+      document.body.style.backgroundColor = "YellowGreen";
+      document.body.style.Color = "SeaGreen"
+  }
+}
+
 
 
 function sendToHome() {
