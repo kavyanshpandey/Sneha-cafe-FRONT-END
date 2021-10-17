@@ -17,7 +17,17 @@ function dark() {
       document.body.style.backgroundColor = "grey";
       document.body.style.Color = "blue"
   }
-}
+} 
+function Blue() { 
+    if (document.body.style.backgroundColor == "Blue") {
+      document.body.style.backgroundColor = "DodgerBlue"
+      document.body.style.Color = "RoyalBlue"
+  } else {
+      document.body.style.backgroundColor = "Blue";
+      document.body.style.Color = "RoyalBlue"
+  }
+} 
+    
 
 
 function sendToHome() {
