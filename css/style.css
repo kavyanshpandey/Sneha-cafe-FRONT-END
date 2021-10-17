@@ -214,7 +214,7 @@ section.home {
     display: flex;
     align-items: center;
     flex-direction: column;
-    color: orangered;
+    color: rgb(27, 26, 25);
     font-size: larger;
 }
 
