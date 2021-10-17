@@ -214,7 +214,7 @@ section.home {
     display: flex;
     align-items: center;
     flex-direction: column;
-  color: rgb(27, 26, 25);
+    color: rgb(27, 26, 25);
     font-size: larger;
 }
 
