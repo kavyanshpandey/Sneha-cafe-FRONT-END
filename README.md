@@ -1,6 +1,8 @@
 # Sneha-cafe-FRONT-END(HTML & CSS)
 
 ### This is just a basic website(static), I only used CSS and HTML for this.
+We Have Special Burgers , Cold Coffee , Fries Specially Hand Made For You 
+Our tasty Food is Enriched with Love Of Mother 
 
 ### Trust me it is looking cool.
 ### Language and Tools
