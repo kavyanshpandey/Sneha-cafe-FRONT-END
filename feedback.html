@@ -8,7 +8,7 @@
       html, body {
       height: 100%;
       }
-      body, h1, h3, input { 
+      body, h1, h3, input {
       padding: 0;
       margin: 0;
       outline: none;
@@ -32,17 +32,17 @@
       align-items: center;
       width: 100%;
       min-height: 100%;
-      background: url("/uploads/media/default/0001/01/49bff73f282c2c21f3341f1fe457fe35337b1792.jpeg") no-repeat center;
+      background: url("images/milk-rice.jpg") no-repeat center;
       background-size: cover;
       }
       form {
-      width: 86%; 
+      width: 45%;
       padding: 20px;
       margin-bottom: 20px;
-      border-radius: 5px; 
+      border-radius: 5px;
       border: solid 1px #ccc;
-      box-shadow: 1px 2px 5px rgba(0,0,0,.31); 
-      background: white; 
+      box-shadow: 1px 2px 5px rgba(0,0,0,.31);
+      background: white;
       }
       .info-item {
       width: 100%;
@@ -50,12 +50,12 @@
       input {
       width: calc(100% - 57px);
       height: 36px;
-      padding-left: 10px; 
+      padding-left: 10px;
       margin: 0 0 12px -5px;
       border-radius: 0 5px 5px 0;
       border: solid 1px #cbc9c9;
-      box-shadow: 1px 2px 5px rgba(0,0,0,.09); 
-      background: #fff; 
+      box-shadow: 1px 2px 5px rgba(0,0,0,.09);
+      background: #fff;
       }
       .icon {
       padding: 9px 15px;
@@ -71,7 +71,7 @@
       label.radio {
       position: relative;
       display: inline-block;
-      text-indent: 32px;
+      text-indent: 25px;
       cursor: pointer;
       }
       label.radio:before {
@@ -104,11 +104,12 @@
       margin-bottom: 12px;
       }
       button {
-      width: 100%;
+      width: 50%;
+        margin-left: 155px;
       padding: 8px;
-      border-radius: 5px; 
+      border-radius: 5px;
       border: none;
-      background: #1b206e; 
+      background: #1b206e;
       font-size: 14px;
       font-weight: 600;
       color: #fff;
@@ -151,11 +152,11 @@
         content: '★ ';
     }
     .rate > input:checked ~ label {
-        color: #ffc700;    
+        color: #ffc700;
     }
     .rate:not(:checked) > label:hover,
     .rate:not(:checked) > label:hover ~ label {
-        color: #deb217;  
+        color: #deb217;
     }
     .rate > input:checked + label:hover,
     .rate > input:checked + label:hover ~ label,
@@ -173,7 +174,7 @@
   </head>
   <body>
     <div class="main-block">
-      <h1><b>Feedback Form</b></h1>
+      <h1 style="font-family: 'Times New Roman'"><b>Feedback Form</b></h1>
       <form action="">
         <div class="info">
           <div class="info-item">
@@ -208,7 +209,7 @@
   </div>
         <br>
         <br>
-        <h3>Please share your experience with us by writing here<h3>
+        <h3>Please share your experience with us by writing here</h3>
         <textarea rows="4"></textarea>
         <button type="submit" href="#">Submit</button>
       </form>
