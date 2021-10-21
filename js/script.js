@@ -9,13 +9,13 @@ toggle.addEventListener('click', () => {
 })
 
 //dark-light toggle
-function dark() {
-  if (document.body.style.backgroundColor == "grey") {
-      document.body.style.backgroundColor = "bisque"
-      document.body.style.Color = "black"
+function Dark() {
+  if (document.body.style.backgroundColor == "Grey") {
+      document.body.style.backgroundColor = "Bisque"
+      document.body.style.Color = "Black"
   } else {
-      document.body.style.backgroundColor = "grey";
-      document.body.style.Color = "blue"
+      document.body.style.backgroundColor = "Grey";
+      document.body.style.Color = "Blue"
   }
 }
 
