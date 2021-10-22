@@ -21,7 +21,7 @@ function dark() {
 
 
 function sendToHome() {
-    location.href = "../index.html";
+    location.href = "./index.html";
 }
 
 
