@@ -1,18 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="en" >
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta charset="UTF-8">
+  <title>Modern Cafe- Contact Us</title>
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="icon" href="https://img-premium.flaticon.com/png/512/4594/premium/4594828.png?token=exp=1633490558~hmac=787a7e8f464c8daf3b270f60d5241cfd" />
-    <title>Creative Agency</title>
-</head>
 
-<body>
-    <header>
-        <div class="logo" onclick="sendToHome()">Modern Cafe</div>
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/style.css" />
+ <div class="logo" onclick="sendToHome()">Modern Cafe</div>
         <div class="toggle"></div>
         <div class="navigation">
             <ul>
@@ -22,106 +20,50 @@
                 <li><a href="contact.html" class="underLine">Contact</a></li>
                 <li><a href="review.html" class="underLine">Customer Reviews</a></li>
             </ul>
-            <!-- <div class="social-bar">
-                <ul>
-                    <li>
-                        <a href="https://facebook.com">
-                            <img src="images/facebook.png" target="_blank" alt="" />
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://twitter.com">
-                            <img src="images/twitter.png" target="_blank" alt="" />
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://instagram.com">
-                            <img src="images/instagram.png" target="_blank" alt="" />
-                        </a>
-                    </li>
-                </ul>
-                <a href="mailto:you@email.com" class="email-icon">
-                    <img src="images/email.png" alt="" />
-                </a>
-            </div> -->
-        </div>
-    </header>
+			</div>
+		
 
-
-   <!-- Dark Mode -->
-   <div align="right">
+</head>
+<body>
+  <div align="right">
     <img class="btn-dark" src="https://img.icons8.com/ios-filled/40/000000/sun.png" onclick="dark()" />
    </div>
+<div class="wrapper">
+<div class="container">
+  <div class="address">
+    <p>Near Flake City,<br>St Petersburg, FL 33701</p>
+  </div>
+  <div class="address">
+    <p>sneha@sample.com<br>727.420.6969</p>
+  </div>
+  <h1>Contact Us</h1>
+  <div class="thanks"><p>We'll be in touch soon,</p> </div>
+    <div class="pen"></div>
+<form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+	<div class="row">
+		<label for="name">Your name:</label><br />
+    
+      <div class="inputwrap"><input id="name" class="input" name="name" type="text" value="" size="30"></input><div class="bar"></div></div<br />
+    
+	</div>
+	<div class="row">
+		<label for="email">Your email:</label><br /><div class="inputwrap">
+		<input id="email" class="input" name="email" type="text" value="" size="30" />
+    <div class="bar"></div></div>
+    <br />
+	</div>
+	<div class="row">
+		<label for="message">Your message:</label><br />
+		<div class="inputwrap"><input type="textarea" /><div class="bar"></div></div<br />
+	</div>
+  <div class="btnwrap"><input id="submit_button" type="submit" value="Send Message!" /></div>
+</form>			
+</div>
+</div>
+<!-- partial -->
+<script src="js/script.js"></script>
 
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
 
-    <section>
-        <div class="title">
-            <h1>Contact us</h1>
-            <p>
-                We are always happy to here from your side,<br> kindly submit your feedback or queries by filling this form.
-            </p>
-        </div>
-        <div class="contact">
-            <div class="contact-form">
-                <form>
-                    <div class="row">
-                        <div class="input50">
-                            <input type="text" placeholder="First Name" />
-                        </div>
-                        <div class="input50">
-                            <input type="text" placeholder="Last Name" />
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="input50">
-                            <input type="text" placeholder="Email" />
-                        </div>
-                        <div class="input50">
-                            <input type="text" placeholder="Subject" />
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="input100">
-                            <textarea placeholder="Message"></textarea>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="input100">
-                            <input type="submit" value="Send" />
-                        </div>
-                    </div>
-                </form>
-            </div>
-
-            <div class="contact-info">
-                <div class="info-box">
-                    <img src="images/address.png" class="contact-icon" alt="" />
-                    <div class="details">
-                        <h4>Address</h4>
-                        <p>Near Flake City, US</p>
-                    </div>
-                </div>
-                <div class="info-box">
-                    <img src="images/email.png" class="contact-icon" alt="" />
-                    <div class="details">
-                        <h4>Email</h4>
-                        <a href="mailto:anyone@example.com">sneha@sample.com</a>
-
-                    </div>
-                </div>
-                <div class="info-box">
-                    <img src="images/call.png" class="contact-icon" alt="" />
-                    <div class="details">
-                        <h4>Call</h4>
-                        <a href="tel:+19 9992128888">00 - 1921991</a>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <script src="js/script.js"></script>
 </body>
-
 </html>
