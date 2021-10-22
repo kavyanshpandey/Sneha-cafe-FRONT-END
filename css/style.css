@@ -472,7 +472,7 @@ section.home {
 
 .service {
     border-radius: 10%;
-    background-color: burlywood;
+    background-color: #deb887;
 }
 
 @media (max-width: 1068px) {
