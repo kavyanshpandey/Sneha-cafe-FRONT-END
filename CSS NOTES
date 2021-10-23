@@ -1,0 +1,293 @@
+CSS - Stands for Cascading Style Sheet.
+- We can also apply styles in html but in css we will select each html element and apply styles.
+- We can use css in html in 3 ways i.e:
+
+a) Inline Approach: 
+- In this approach we will use the style tag inside the html tag and we will apply styles only to a specific tag. In order to apply styles to another tag we will have to do the code duplication.
+- Drawbacks: Apply styles to specific html tag, in order to apply the same style to other we have to repeat styles for all the html element. Increase the code redundancy and code duplication. Increase the code maintainabilty of application.
+
+b) Internal Approach:
+- To fix the problems from the inline approach we consider the internal approach. here we have to write the style tag inside the head section and we write styles to a bunch of tags.
+- Drawbacks: These styles are only applicable for specific html document, whereas we cannot apply the same styles to other html document. Increase the code redundancy and code duplication. Increase the code maintainabilty of application.
+
+c) External Approach:
+- To fix the problems from the internal approach, external approach was considered in which an external style sheet is being created and external style sheet is linked to different html pages.
+	<link = "stylesheet"  href="mystyles.css"> ; this is written inside the head part.
+
+1. CSS SELECTORS:
+- In order to apply styles to a specific html element, we use selectors to select the element. There are 5 types of the selectors:
+
+a) element selector / tag selector: To apply specific styles to element or tag we use element/tag selector i.e
+	p{
+	   background-color: red;
+	 }
+
+b) id selector : 
+- To apply styles to a particular html element we should assign an id to that element which should be unique in that document and selecting id we must apply the styles.
+	<p id="para">Welcome to css</p>
+- ex:
+	<style>
+	#para{
+	        background-color: red;
+	       }
+	</style>
+-exception: The id attribute for any html element should be unique for entire document i.e the same id cannot be assigned for any other element in the entire document.
+
+c) class selector: The id attribute is unique for any element. But class name can be assigned to a group of elements in a html document.
+	<p class="para">Welcome to css</p>
+	<h1 class="para">Welcome to css</>h1
+- ex:
+	<style>
+	.para{
+	        background-color: red;
+	       }
+	</style>	
+
+d) attribute selector: We can apply specific styles for an attribute in a html document. Such as when we use text box and password box. In order to apply different styles as they both use input tag we can use attribute selector.
+- ex
+	<style>
+	input[type="text"]{
+	        background-color: red;
+	       }
+	</style>	
+
+e) pseudo selector: An action which is performed by an user on the webpage is called event. Inorder to assign some styles for events can be done by pseudo selectors.
+- ex
+	<style>
+	input[type="text"]:focus{
+	        background-color: red;
+	       }
+	</style>	
+
+	<style>
+	input[type="submit",value="Submit"]:hover{
+	        background-color: red;
+	       }
+	</style>	
+
+2. CSS COLORS: There are 5 color properties for css which are:
+
+a) Textual color: Represented by 3 colors which is (red, green,blue) and values lies from 0-255 i.e
+	rgb(0,0,0) - black color
+	rgb(255,255,255) - white color
+b) Hex(Hexadecimal): Colors are represented by hexa-decimal value i.e
+	#000000 - black color
+	#ffffff - white color
+c) HSL - Stands for Hue, saturation and lightness
+- Hue :  0-red
+	120-green
+	240-blue
+	360-black
+	-Represented by degree
+- Saturation: Represented by %. 0% for black, 50% for neither black nor light, 100% for white.
+- Lightness: Represented also by %. 0% for black, 50% for neither black nor light, 100% for white.
+
+d) RGBA - Represents for red, green, blue, alpha.
+- As alpha represent transparent which lies from 0-1.
+- 0 represent full transparency.
+- 1 represent full color.
+
+e) HSLA - Represents for hue, saturation, lightness and alpha.
+- alpha values are same again i.e same for transparency and lies between 0-1.
+
+3. CSS BACKGROUNDS:
+- Properties which sets the background styles for the html document.
+
+a) background-image - sets the image in the background.
+	background-image: url(" ")
+
+b) background-color - sets the color for the background.
+	- for normal colors: rgb,rgba,hsl,hex,hsla
+	- for combination of colors: background: linear-gradient(degree,colors)
+
+c) background-repeat - repeats the image in x-axis or y-axis in the background, if no-repeat then it doesnot repeat.
+	background-repeat: repeat-X;
+	background-repeat: repeat-Y;
+	background-repeat: no-repeat;
+
+d) background-attachment - used to fix the background image along with the scroll bar.
+	background-attachment: fixed (fix the image in the background and contents only scroll)
+	background-attachment: scroll (scroll the image in the background along with the content and it is the default)
+
+e) background-position - used to place the background image at top, left, right, bottom, center.
+
+f) background-size - used to cover the image to the full background of the webpage.
+	background-size: cover;
+
+-Note - We can use background property in a single line of css property i.e:
+	background: color url repeat attachment position
+
+4. CSS BORDERS:
+- In order to give border to our html document we use the property border. These property are of 3 types:
+
+a)  border-width - this property is used to set the width of the border in px,cm etc.
+	border-width: 2px;
+
+b) border-style - this property is used to set the style for the border. There are 4 types of the style:
+	- solid
+	- dotted
+	- dashed
+	- double
+	border-style: solid
+
+c) border-color - this property is used to give different types of the color to the border for html document.
+	border-color: black
+
+Note:
+Shortcut property -    border: width style color
+		ex- border: 2px solid black
+
+We can apply this shortcut property to each side also:
+	border-top: 2px solid salmon
+	border-bottom: 2px solid salmon
+	border-left: 2px solid salmon
+	border-right: 2px solid salmon
+
+- To strike out the border- border: none
+
+- We can apply rounded border also by a property called border-radius.
+	border-radius: 20px (rounded from all corners)
+
+- We can apply border-radius to specific corner:
+	border-top-left-radius: 10px
+	border-top-right-radius: 10px
+	border-bottom-left-radius: 10px
+	border-bottom-right-radius: 10px
+
+5. CSS MARGIN:
+- The white space outside the border is called margin. We can assign the property margin in px,% etc.
+- We can apply margin to specific side:
+	margin-top: 10px
+	margin-bottom: 10px
+	margin-left: 10px
+	margin-right: 10px
+- shortcut property:
+	margin: 10px (applies margin to all side)
+	margin: 10px 5px 20px 15px (top right bottom left) - follows clockwise rotation
+	margin: 10px 20px (top-bottom left-right)
+
+6. CSS PADDING:
+- The white space inside the border is called padding. We can assign the property padding in px,% etc.
+- We can apply margin to specific side:
+	padding-top: 10px
+	padding-bottom: 10px
+	padding-left: 10px
+	padding-right: 10px
+- shortcut property:
+	padding: 10px (applies margin to all side)
+	padding: 10px 5px 20px 15px (top right bottom left) - follows clockwise rotation
+	padding: 10px 20px (top-bottom left-right)
+
+7. CSS OUTLINE:
+- Outline is same as border which is given outside the border. This property has 3 types:
+
+a) outline-width
+b) outline-style
+c) outline-color
+
+- Shortcut property- outline: width style color
+- To strike out the outline from the html document- outline: none
+
+8. CSS TEXT FORMATTING:
+- This is used to apply styles for the html text content.
+
+a) color - to apply color to the text. (color: red)
+b) text-align - to apply allignement to the text in the webpage. (text-align: center)
+c) text-decoration - generally used to remove the text decoration like underline, overline incase of anchor tags. 
+		(text-decoration: none)
+d) text-transform: to convert the text to uppercase, lowercase or capitalize. (text-transform: uppercase)
+e) text-indent: to indent some for the first line of the paragraph. (text-indent: 10px)
+f) letter-spacing: to apply some spaces inbetween the letters. (letter-spacing: 10px)
+g) line-height: to apply height inbetween the lines. (line-height: 10px)
+h) direction: to change the direction of lines from left to right(ltr) and right to left(rtl). (direction: rtl)
+i) word spacing: to apply spaces between the words. (word-spacing: 10px)
+j) text-shadow: to apply shadow for the text. (text-shadow: 10px 10px 10px black; x-axis y-axis shadow-intensity color).
+
+9. CSS FONTS:
+- The css fonts are used to apply font styles for the html content like font-family, font-size, font-weight and font-styles.
+
+a). font-family: 
+- This property is used to apply the type of font to be applied in the html document.
+	font-family: font-name,family-name;
+- In css fonts are categorize into 4 families:
+	i. serif(Times New Roman)
+	ii. sans-serif(Arial,Verdana,Georgia)
+	iii. monospace(Lucida Console)
+	iv. cursive(most of the google fonts)
+
+b). font-style:
+- This property is used to convert the text from normal to italic.
+	font-style: italic;
+
+c). font-weight:
+- This property is used to convert the normal text to bold or bolder.
+	font-weight: bold;
+
+d). font-size:
+- This used to increase the font size of the html document from default to custom in px,cm,mm etc.
+	font-size: 18px;
+
+10. CSS LINKS:
+- Css are used to apply the custom styles for hyperlinks for some special events using css pseudo selectors.
+- Usually each html hyperlinks are having the default styles linke un-touched links in blue color and visited links will be purple color. We can custom these styles using css links pseudo selectors.
+
+a). a:link - This pseudo selector indicates a normal unvisited and untouched link.
+
+b). a:hover - This pseudo selector indicates the moment an user brings mouse cursor on the link.
+
+c). a:active - This pseudo selector indicates the moment a user clicks on the link but not released the cursor on the link.
+
+d). a:visited - This pseudo selector indicates a link which has been visited already.
+
+11. CSS POSITIONS:
+- The css position are used to place the html elements in the specified position on the webpage.
+
+a). position: static - 
+- By default all the html element are defined with the position static, if mentioned specifically or by default.
+- If any html element is defined with static position, then its movement is not effected by top, left, bottom and right properties.
+- It means html element with static position is always constant and no change on any movement of it.
+
+b). position: relative - 
+- This is opposite to the static position. If any html element is defined with this position then its movement is effected by top, left, bottom, right properties.
+- With position relative its movement is independent and it doesnot depend on any other html element. We normally use this postion with css animations to move a html element in the specified place in the webpage.
+
+c). position: absolute - 
+- This is almost same as relative position. If any element is defined with this position then its movement is effected by top, left, bottom, right properties.
+- But any html element is defined with this position then its movement is purely depend on the enclosed parent element or ancestor element.
+- If the ancestor element is moving then this element with this position also moves along with the parent.
+- We generally use this to stick the dropdown list with the parent element.
+
+d). position: fixed - 
+- Any html element defined with this position, its movement is also effected by top, left, bottom, right but once moved to specified position its fixed to that position.
+- It doesnt move along with the scroll bar.
+- This is basically used to fix the main navigation bar at the top of the webpage or to fix the main footer at the bottom of the webpage.
+
+e). position: sticky - 
+- This position is quite different than all other css position. Any html element defined with this position then its movement is purely depend on the scroll bar.
+- We generally use this to display an advertisement box on the webpage.
+
+12. CSS DISPLAY:
+- The html elements are used to display the content on the webpage. The contents which is displayed on the webpage is not based on how we write the html tags in a html document. The content which is displayed on a webpage is purely depend on the actual display nature of the specific html element.
+- Each html element/tags have its own display nature.
+- display nature is divided into 2 types:
+	i. inline elements - <a>, <span>, <input>, <button>, <img>
+	ii. block elements - <p>, <div>, <h1>...<h6>, rest others.
+- inline - If the tags are written in the same single line or line-by-line in html document, then they will be displayed in a same line on the webpage.
+- block - If the tags are written in the same single line or line-by-line in html document, then they will be displayed line by line on the webpage.
+
+a). display: inline - used to convert the block elements to be displayed as inline elements.
+b). display: block - used to convert the inline elements to be displayed as block elements.
+c). display: inline-block - used to display the html elements in the same line but in blocks. Bascially we use this to display hyperlinks on a main navigation bar.
+d). display: none - used to hde any html element to be displayed on the webpage. Basically we use this to hide any dropdown list in navigation bar, we will make it to display block while we hover on the dropdown button.
+
+13. CSS FLOAT:
+- This property is used to float any html element to either left or right side of the webpage.
+- Normally the block level html element will occupy the full width of the browser and thery will not let the next elements to display aside to them.
+- For this we will apply float effect to the first html element to keep it either on left or right position of the webpage.
+- There are 2 values for the float property:
+	1.float: left
+	2.float: right
+- Float property may disturb the display of the next element. In order to clear the float effect for the next html element, we use a property called clear.
+	clear: both
+- Basically this is used to display the sidebar on the either side of the webpage.
+- Also this is used to display the newspaper article sorrounding the content with images.
