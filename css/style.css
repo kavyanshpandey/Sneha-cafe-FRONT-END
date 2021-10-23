@@ -17,7 +17,7 @@ html,
 body {
     font-family: 'Poppins', sans-serif;
     color: #111;
-    background-color: bisque;
+    background-color: #ffe4c4;
 }
 
 h1 {
@@ -55,7 +55,7 @@ section.home {
     padding: 10px 30px;
     margin: 20px 0;
     border-radius: 55px;
-    background-color: yellowgreen;
+    background-color: #9acd32;
     color: black;
     font-size: 15px;
 }
@@ -71,12 +71,12 @@ section.home {
     position: absolute;
     top: 30px;
     left: 100px;
-    color: yellowgreen;
-    text-shadow: 2px 2px 8px blueviolet;
+    color: #9acd32;
+    text-shadow: 2px 2px 8px #8a2be2;
     font-size: 3rem;
     font-weight: 700;
     z-index: 20;
-    background-color: burlywood;
+    background-color: #deb887;
     border-radius: 10%;
 }
 
@@ -472,7 +472,7 @@ section.home {
 
 .service {
     border-radius: 10%;
-    background-color: burlywood;
+    background-color: #deb887;
 }
 
 @media (max-width: 1068px) {
@@ -544,6 +544,7 @@ section.home {
     align-items: center;
     flex-direction: column;
     width: 100%;
+    background-color: rgba(157, 204, 204, 0.993);
 }
 
 .testimonial-heading {
@@ -556,12 +557,19 @@ section.home {
     align-items: center;
 }
 
-.testimonial-heading h1 {
-    font-size: 2.2rem;
-    font-weight: 500;
-    background-color: #202020;
-    color: #ffffff;
-    padding: 10px 20px;
+.testimonial-heading {
+    display: inline-block;
+    position: relative;
+    color: #3b7cf5;
+    font-size: 4vw;
+    padding: 60px;
+    width: 100%;
+    text-align: center;
+    font-weight: 800;
+}
+
+.testimonial-heading b{
+    color: #fff;
 }
 
 .testimonial-heading span {
