@@ -556,12 +556,19 @@ section.home {
     align-items: center;
 }
 
-.testimonial-heading h1 {
-    font-size: 2.2rem;
-    font-weight: 500;
-    background-color: #202020;
-    color: #ffffff;
-    padding: 10px 20px;
+.testimonial-heading {
+    display: inline-block;
+    position: relative;
+    color: #3b7cf5;
+    font-size: 4vw;
+    padding: 60px;
+    width: 100%;
+    text-align: center;
+    font-weight: 800;
+}
+
+.testimonial-heading b{
+    color: #fff;
 }
 
 .testimonial-heading span {
