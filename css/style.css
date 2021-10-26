@@ -325,7 +325,16 @@ section.home {
 
 
 /*  CONTACT  */
-
+.location
+{
+    width: 80%;
+    margin: auto;
+    padding: 80px 0;
+}
+.location iframe
+{
+    width: 100%;
+}
 .contact {
     position: relative;
     width: 100%;
@@ -687,3 +696,31 @@ section.home {
 	background-color: #252525;
 }
  
+/* footer */
+.footer
+{
+    background-color: bisque;
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    margin-top: 0px;
+    height: 5%;
+    text-align: center;
+    padding: 5px 0;
+}
+.footer h4
+{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.icons .fa
+{
+    color: #f44336;
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
+}
+.fa-heart-o
+{
+    color: #f44336;
+}
