@@ -6,19 +6,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <!-- ---------------------------- -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="icon"
+        href="https://img-premium.flaticon.com/png/512/4594/premium/4594828.png?token=exp=1633490558~hmac=787a7e8f464c8daf3b270f60d5241cfd" />
     <!-- Aos styled_link -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="icon"
-        href="https://img-premium.flaticon.com/png/512/4594/premium/4594828.png?token=exp=1633490558~hmac=787a7e8f464c8daf3b270f60d5241cfd" />
 
-    <title>Modern Cafe</title>
-</head>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+
+    <title>Modern Cafe Dishes</title>
+
 
 <body>
     <header>
-
-        <button class="logo" onclick="sendToHome()">Modern Cafe</button>
+        <div class="logo" onclick="sendToHome()">Modern Cafe</div>
         <div class="toggle"></div>
         <div class="navigation">
             <ul>
@@ -50,47 +55,56 @@
                 <a href="mailto:you@email.com" class="email-icon">
                     <img src="images/email.png" alt="" />
                 </a>
+
             </div> -->
         </div>
     </header>
 
 
     <!-- Dark Mode -->
-    <!-- <script type="text/javascript">
-        function king() {
-
-            if (document.body.style.backgroundColor == "grey") {
-                document.body.style.backgroundColor = "white"
-                document.body.style.Color = "black"
-
-            } else {
-                document.body.style.backgroundColor = "grey";
-                document.body.style.Color = "blue"
-
-            }
-        }
-    </script> -->
+    <div align="right">
+        <img class="btn-dark" src="https://img.icons8.com/ios-filled/40/000000/sun.png" onclick="dark()" />
+    </div>
 
 
+    <section class="about" id="about">
 
-    <section class="home">
-        <img src="images/food.jpeg" class="home-img" alt="" />
+        <h3 class="sub-heading"> About Us </h3>
+        <h1 class="heading"> why choose us? </h1>
 
-        <div class="home-content" data-aos="fade-up">
-            <h1>
-                Hi! I'm Sneha and<br> Welcome to my cafe!
-            </h1>
-            <p>
-                You will get all kinds of delicious food<br> here and We have multiple varieties<br> including Italian
-                and Chinese.<br> Indian food is our primary food.
-            </p>
-            <a href="dishes.html" class="btn">Select Your Food Now</a>
+        <div class="row">
+
+            <div class="image">
+                <img src="images/about-img.png" alt="">
+            </div>
+
+            <div class="content">
+                <h3>Best Food In The Region</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, sequi corrupti corporis quaerat
+                    voluptatem ipsam neque labore modi autem, saepe numquam quod reprehenderit rem? Tempora aut soluta
+                    odio corporis nihil!</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, nemo. Sit porro illo eos cumque
+                    deleniti iste alias, eum natus.</p>
+                <div class="icons-container">
+                    <div class="icons">
+                        <i class="fas fa-shipping-fast"></i>
+                        <span>free delivery</span>
+                    </div>
+                    <div class="icons">
+                        <i class="fas fa-dollar-sign"></i>
+                        <span>easy payments</span>
+                    </div>
+                    <div class="icons">
+                        <i class="fas fa-headset"></i>
+                        <span>24/7 service</span>
+                    </div>
+                </div>
+                <a href="#" class="btnDishes">learn more</a>
+            </div>
+
         </div>
-        <!-- <button class="btn" id="dark-mode" type="button" onclick="king()">Dark Mode</button> -->
+
     </section>
-
-
-    <script src="js/script.js"></script>
     <!-- script files link here -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
@@ -101,6 +115,8 @@
             easing: 'ease-in-out-quad',
         });
     </script>
+
+    <script src="js/script.js"></script>
 </body>
 
 </html>
