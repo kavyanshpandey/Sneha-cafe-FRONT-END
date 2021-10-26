@@ -2,6 +2,8 @@
 :root {
     --primary-color: #f8d71f;
     --secondary-color: #1b206e;
+    --green:#27ae60;
+    --black:#192a56;
 }
 
 
@@ -84,8 +86,26 @@ section.home {
     color: #000000;
     text-shadow: 2px 2px 8px #e0e0e0;
 }
-
-
+.btnDishes
+{
+    margin-top: 1rem;
+    display: inline-block;
+    font-size: 1rem;
+    color:#fff;
+    background: #192a56;
+    border-radius: .5rem;
+    cursor: pointer;
+    padding:.8rem 2.5rem;
+}
+.btnDishes:hover
+{
+    background: #27ae60;
+    letter-spacing: .1rem;
+}
+a
+{
+    text-decoration: none;
+}
 /*  TOGGLE  */
 
 .toggle {
@@ -325,7 +345,16 @@ section.home {
 
 
 /*  CONTACT  */
-
+.location
+{
+    width: 80%;
+    margin: auto;
+    padding: 80px 0;
+}
+.location iframe
+{
+    width: 100%;
+}
 .contact {
     position: relative;
     width: 100%;
@@ -471,7 +500,7 @@ section.home {
 /* icon */
 
 .service {
-    border-radius: 10%;
+    border-radius: 2%;
     background-color: burlywood;
 }
 
@@ -687,3 +716,31 @@ section.home {
 	background-color: #252525;
 }
  
+/* footer */
+.footer
+{
+    background-color: bisque;
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    margin-top: 0px;
+    height: 5%;
+    text-align: center;
+    padding: 5px 0;
+}
+.footer h4
+{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.icons .fa
+{
+    color: #f44336;
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
+}
+.fa-heart-o
+{
+    color: #f44336;
+}
