@@ -19,6 +19,11 @@ body {
     color: #111;
     background-color: bisque;
 }
+.title:hover{
+	 transition: transform .2s; /* Animation */
+         width: 80px;
+         height: 50px;
+}
 
 h1 {
     font-size: 40px;
