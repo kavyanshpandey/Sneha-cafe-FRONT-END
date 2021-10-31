@@ -276,7 +276,7 @@ section.home {
 }
 .services .service .icon img:hover{
 	 transition: transform .2s;
-  	 width: 50px;
+  	 width: 360px;
  	 height: 100px;
 	 object-fit: cover;
 }
