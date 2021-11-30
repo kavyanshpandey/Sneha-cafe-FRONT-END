@@ -274,6 +274,13 @@ section.home {
 .services .service .icon img {
     max-width: 300px;
 }
+.services .service .icon img:hover{
+	 transition: transform .2s;
+  	 width: 360px;
+ 	 height: 100px;
+	 object-fit: cover;
+}
+
 
 
 /*  WORK PAGE  */
