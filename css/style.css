@@ -36,7 +36,7 @@ section {
     height: 100vh;
     align-items: center;
     padding: 100px;
-    margin-top: 70px;
+    margin-top: 50px;
 }
 
 section.home {
@@ -90,8 +90,8 @@ section.home {
 
 .toggle {
     position: fixed;
-    top: 0;
-    right: 0;
+    top: 20;
+    right: 50;
     width: 60px;
     height: 60px;
     background: var(--primary-color) url(../images/menu.png);
@@ -224,7 +224,7 @@ section.home {
         transform: translatex(-100px);
     }
     80% {
-        transform: translatex(20px);
+        transform: translatex(30px);
     }
     100% {
         opacity: 1;
