@@ -2,10 +2,10 @@ const toggle = document.querySelector('.toggle')
 const logoColor = document.querySelector('.logo')
 const navigation = document.querySelector('.navigation')
 
-toggle.addEventListener('click', () => {
-    toggle.classList.toggle('active')
-    navigation.classList.toggle('active')
-    logoColor.classList.toggle('active')
+toggle.addEventListener('Click', () => {
+    toggle.classList.toggle('Active')
+    navigation.classList.toggle('Active')
+    logoColor.classList.toggle('Active')
 })
 
 //dark-light toggle
@@ -17,7 +17,17 @@ function dark() {
       document.body.style.backgroundColor = "grey";
       document.body.style.Color = "blue"
   }
-}
+}  
+function Yellow() {
+  if (document.body.style.backgroundColor == "Yellow") {
+      document.body.style.backgroundColor = "GoldenRod"
+      document.body.style.Color = "Gold"
+  } else {
+      document.body.style.backgroundColor = "Yellow";
+      document.body.style.Color = "Orange"
+  }
+} 
+
 
 
 function sendToHome() {
