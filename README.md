@@ -1,6 +1,6 @@
 # Sneha-cafe-FRONT-END(HTML & CSS)
 
-### This is just a basic website(static), I only used CSS and HTML for this.
+### Hey guys, This is just a basic website(static), This website is developed with the help of CSS and HTML only.
 
 ### Trust me it is looking cool.
 ### Language and Tools
@@ -18,5 +18,6 @@
 ![alt text](https://github.com/kavyanshpandey/Sneha-cafe-FRONT-END/blob/master/images/pic1.png)
 ![alt text](https://github.com/kavyanshpandey/Sneha-cafe-FRONT-END/blob/master/images/pic2.png)
 
-### Thanks
 ### Hope you like it ! Feel free to contribute
+
+### Thank you!
