@@ -18,5 +18,9 @@
 ![alt text](https://github.com/kavyanshpandey/Sneha-cafe-FRONT-END/blob/master/images/pic1.png)
 ![alt text](https://github.com/kavyanshpandey/Sneha-cafe-FRONT-END/blob/master/images/pic2.png)
 
+### Thanks 
+
+This repo is the part of hacktoberfest2022, do contribute 
 ### Thanks
 ### Hope you like it ! Feel free to contribute
+
