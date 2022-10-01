@@ -2,6 +2,7 @@
 :root {
     --primary-color: #f8d71f;
     --secondary-color: #1b206e;
+    --danger:red;
 }
 
 
@@ -11,6 +12,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    /* overflow-x: hidden; */
 }
 
 html,
@@ -103,7 +105,7 @@ section.home {
 }
 
 .toggle.active {
-    background: var(--primary-color) url(../images/close.png);
+    background: var(--danger) url(../images/close.png);
     background-size: 25px;
     background-position: center;
     background-repeat: no-repeat;
@@ -113,7 +115,7 @@ section.home {
 /*  NAVIGATION  */
 
 .navigation {
-    position: fixed;
+    position:fixed;
     top: 0;
     left: 100%;
     width: 100%;
