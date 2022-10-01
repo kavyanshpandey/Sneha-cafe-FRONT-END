@@ -70,10 +70,10 @@ section.home {
 .logo {
     position: absolute;
     top: 30px;
-    left: 100px;
+    left: 38%;
     color: yellowgreen;
     text-shadow: 2px 2px 8px blueviolet;
-    font-size: 3rem;
+    font-size: 4rem;
     font-weight: 700;
     z-index: 20;
     background-color: burlywood;
