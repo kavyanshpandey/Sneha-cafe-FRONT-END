@@ -78,6 +78,8 @@ section.home {
     z-index: 20;
     background-color: burlywood;
     border-radius: 10%;
+    padding: 9px;
+    cursor: pointer;
 }
 
 .logo.active {
@@ -90,8 +92,8 @@ section.home {
 
 .toggle {
     position: fixed;
-    top: 0;
-    right: 0;
+    top: 9px;
+    right: 12px;
     width: 60px;
     height: 60px;
     background: var(--primary-color) url(../images/menu.png);
@@ -100,6 +102,8 @@ section.home {
     background-repeat: no-repeat;
     z-index: 20;
     cursor: pointer;
+    border-radius: 16px;
+    padding: 10px;
 }
 
 .toggle.active {
@@ -216,6 +220,8 @@ section.home {
     flex-direction: column;
     color: rgb(27, 26, 25);
     font-size: larger;
+    border-radius: 10px;
+    padding: 10px;
 }
 
 @keyframes moveInLeft {
@@ -340,6 +346,7 @@ section.home {
     background: #f9f9f9;
     width: calc(100% - 400px);
     padding: 60px 40px 20px;
+    border-radius: 40px;
 }
 
 .contact-form form {
@@ -409,12 +416,15 @@ section.home {
     font-weight: 300;
     border: 0;
     cursor: pointer;
+    border-radius: 40px;
 }
 
 .contact-info {
     width: 350px;
     background: #f9f9f9;
     padding: 60px 40px 20px;
+    border-radius: 40px;
+    height: 100%;
 }
 
 .contact-info .info-box {
@@ -562,6 +572,7 @@ section.home {
     background-color: #202020;
     color: #ffffff;
     padding: 10px 20px;
+    border-radius: 30px;
 }
 
 .testimonial-heading span {
@@ -587,6 +598,7 @@ section.home {
     padding: 20px;
     margin: 15px;
     cursor: pointer;
+    border-radius: 30px;
 }
 
 .profile-img {
