@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
 :root {
-    --primary-color: #f8d71f;
+    --primary-color: #f8d73f;
     --secondary-color: #1b206e;
 }
 
@@ -21,7 +21,7 @@ body {
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 41px;
     font-weight: 480;
 }
 
