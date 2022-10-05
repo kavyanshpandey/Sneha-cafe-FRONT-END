@@ -55,29 +55,40 @@ section.home {
     padding: 10px 30px;
     margin: 20px 0;
     border-radius: 55px;
-    background-color: yellowgreen;
+    background-color: rgb(27, 200, 36);
     color: black;
     font-size: 15px;
+    
 }
 
 .btn:hover {
     transform: scale(0.98);
+    color: rgb(27, 200, 36);
+    background-color: black;
+    transition:0.7s;
+    border:1px solid#36f456;
+    box-shadow: 0 0 30px 0px rgba(31, 196, 45, 0.678);
 }
 .btn-dark{
 	padding: 10px 70px;
+    margin-top: 10px;
+    margin-right: 17px;
 }
 
 .logo {
     position: absolute;
     top: 30px;
-    left: 100px;
-    color: yellowgreen;
-    text-shadow: 2px 2px 8px blueviolet;
-    font-size: 3rem;
+    padding: 5px;
+    font-family: Catamaran;
+    background-image: linear-gradient(90deg,#0f1ea8 0%,#35eeeed1 46%,#b222c2e3 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+    text-shadow: 2px 3px 9px rgba(118, 31, 138, 0.71);
+    font-size: 3.6rem;
     font-weight: 700;
     z-index: 20;
-    background-color: burlywood;
-    border-radius: 10%;
+   border-radius: 10%;
+   margin-left: 38.5%;
 }
 
 .logo.active {
@@ -94,6 +105,8 @@ section.home {
     right: 0;
     width: 60px;
     height: 60px;
+    margin: 8px;
+    border-radius: 7px;
     background: var(--primary-color) url(../images/menu.png);
     background-size: 30px;
     background-position: center;
@@ -101,7 +114,9 @@ section.home {
     z-index: 20;
     cursor: pointer;
 }
-
+.toggle:hover{
+    box-shadow: 0 0 30px 0px rgba(215, 218, 26, 0.841);
+}
 .toggle.active {
     background: var(--primary-color) url(../images/close.png);
     background-size: 25px;
@@ -123,6 +138,7 @@ section.home {
     display: flex;
     justify-content: center;
     align-items: center;
+   
 }
 
 .navigation.active {
@@ -197,6 +213,7 @@ section.home {
 /*  HOMEPAGE  */
 
 .home {
+    padding-top: 210px;
     position: relative;
     width: 100%;
     height: 100vh;
@@ -206,16 +223,21 @@ section.home {
     animation: moveInLeft 4s;
 }
 
+
 .home-content {
+    padding-top: 20px;
     background-color: rgba(255,255,255,0.5);
     position: relative;
     z-index: 10;
+    width: 550px;
+    height: 400px;
     max-width: 600px;
     display: flex;
     align-items: center;
     flex-direction: column;
     color: rgb(27, 26, 25);
     font-size: larger;
+    border-radius: 5px;
 }
 
 @keyframes moveInLeft {
