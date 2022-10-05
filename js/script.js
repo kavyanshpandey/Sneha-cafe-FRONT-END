@@ -10,13 +10,13 @@ toggle.addEventListener('click', () => {
 
 //dark-light toggle
 function dark() {
-  if (document.body.style.backgroundColor == "grey") {
-      document.body.style.backgroundColor = "bisque"
-      document.body.style.Color = "black"
-  } else {
-      document.body.style.backgroundColor = "grey";
-      document.body.style.Color = "blue"
-  }
+    if (document.body.style.backgroundColor == "grey") {
+        document.body.style.backgroundColor = "bisque"
+        document.body.style.Color = "black"
+    } else {
+        document.body.style.backgroundColor = "grey";
+        document.body.style.Color = "blue"
+    }
 }
 
 
@@ -24,3 +24,16 @@ function sendToHome() {
     location.href = "../index.html";
 }
 
+// dart mode
+function king() {
+
+    if (document.body.style.backgroundColor == "grey") {
+        document.body.style.backgroundColor = "white"
+        document.body.style.Color = "black"
+
+    } else {
+        document.body.style.backgroundColor = "grey";
+        document.body.style.Color = "blue"
+
+    }
+}
