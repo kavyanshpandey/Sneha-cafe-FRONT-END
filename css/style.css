@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
 :root {
-    --primary-color: #f8d71f;
+    --primary-color: #b7f81f;
     --secondary-color: #1b206e;
 }
 
@@ -18,6 +18,8 @@ body {
     font-family: 'Poppins', sans-serif;
     color: #111;
     background-color: bisque;
+    background-size: cover;
+    overflow: hidden;
 }
 
 h1 {
