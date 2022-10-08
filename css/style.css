@@ -53,13 +53,15 @@ section.home {
     padding: 10px 30px;
     margin: 20px 0;
     border-radius: 55px;
-    background-color: yellowgreen;
+    background-color: rgba(174, 245, 31, 0.774);
+    transition: 00.5s;
     color: black;
     font-size: 15px;
 }
 
 .btn:hover {
     transform: scale(0.98);
+    background-color: rgb(117, 199, 3);
 }
 .btn-dark {
     padding: 10px 70px;
@@ -202,8 +204,10 @@ section.home {
 }
 
 .home-content {
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.692);
     position: relative;
+    border-radius: 20px;
+    padding: 20px;
     z-index: 10;
     max-width: 600px;
     display: flex;
