@@ -35,7 +35,7 @@ section {
     height: 100vh;
     align-items: center;
     padding: 100px;
-    margin-top: 70px;
+    /* margin-top: 10px; */
 }
 
 section.home {
@@ -335,8 +335,9 @@ section.home {
 .contact-form {
     position: relative;
     background: #f9f9f9;
+    border-radius: 20px;
     width: calc(100% - 400px);
-    padding: 60px 40px 20px;
+    padding: 60px 40px 40px;
 }
 
 .contact-form form {
@@ -410,6 +411,7 @@ section.home {
 .contact-info {
     width: 350px;
     background: #f9f9f9;
+    border-radius: 20px;
     padding: 60px 40px 20px;
 }
 
@@ -555,6 +557,7 @@ section.home {
     font-size: 2.2rem;
     font-weight: 500;
     background-color: #202020;
+    border-radius: 20px;
     color: #ffffff;
     padding: 10px 20px;
 }
@@ -579,6 +582,7 @@ section.home {
     width: 500px;
     box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.1);
     background-color: #ffffff;
+    border-radius: 20px;
     padding: 20px;
     margin: 15px;
     cursor: pointer;
