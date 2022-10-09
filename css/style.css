@@ -271,6 +271,7 @@ section.home {
 
 .services .service .icon img {
     max-width: 300px;
+    border-radius: 10px;
 }
 
 /*  WORK PAGE  */
