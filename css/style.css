@@ -347,9 +347,11 @@ section.home {
 .contact-form .row {
     width: 100%;
     display: flex;
+    padding: 5px 0;
 }
 
 .contact-form .input50 {
+    position: relative;
     width: 50%;
     margin: 0 10px;
 }
@@ -366,12 +368,32 @@ section.home {
     color: #111;
     background: transparent;
     width: 100%;
-    padding: 10px;
+    padding: 15px;
     outline: none;
     font-size: 16px;
     font-weight: 300;
     margin: 10px 0;
     resize: none;
+}
+
+/* TRANSITION EFFECT on FOCUS*/
+
+.form-label {
+    position: absolute;
+    top: 24px;
+    left: 18px;
+    color: #858585;
+    cursor: text;
+    transition: all 0.15s ease-in-out 0s;
+}
+
+.contact-form .row input:focus ~ .form-label,
+.contact-form .row input:valid ~ .form-label {
+    top: -1em;
+    left: 0;
+    font-size: 0.9em;
+    color: inherit;
+    cursor: pointer;
 }
 
 /*GLOW EFFECT on FOCUS*/
@@ -385,7 +407,7 @@ section.home {
     color: #111;
     background: transparent;
     width: 100%;
-    padding: 10px;
+    padding: 15px;
     outline: none;
     font-size: 16px;
     font-weight: 300;
