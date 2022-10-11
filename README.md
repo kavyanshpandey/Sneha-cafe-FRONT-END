@@ -17,6 +17,8 @@
 
 ![alt text](https://github.com/kavyanshpandey/Sneha-cafe-FRONT-END/blob/master/images/pic1.png)
 ![alt text](https://github.com/kavyanshpandey/Sneha-cafe-FRONT-END/blob/master/images/pic2.png)
+![alt text](https://github.com/kavyanshpandey/Sneha-cafe-FRONT-END/blob/master/images/pic3.png)
+![alt text](https://github.com/kavyanshpandey/Sneha-cafe-FRONT-END/blob/master/images/pic4.png)
 
 ### Thanks
 ### Hope you like it ! Feel free to contribute
