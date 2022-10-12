@@ -1,3 +1,5 @@
+// Main.js file
+
 const facebookBtn = document.querySelector(".facebook-btn");
 const twitterBtn = document.querySelector(".twitter-btn");
 const pinterestBtn = document.querySelector(".pinterest-btn");
