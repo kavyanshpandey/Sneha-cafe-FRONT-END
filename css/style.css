@@ -309,6 +309,11 @@ section.home {
     transition: 0.5s;
 }
 
+h1 {
+    font-size: 45px;
+    font-weight: 580;
+}
+
 .portfolio .item:hover .action {
     opacity: 1;
 }
