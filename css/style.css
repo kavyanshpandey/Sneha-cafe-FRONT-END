@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
+@import 'https://fonts.googleapis.com/css?family=Montserrat:300, 400, 700&display=swap';
 :root {
     --primary-color: #f8d71f;
     --secondary-color: #1b206e;
@@ -6,13 +6,14 @@
 
 /*  BASE STYLES  */
 
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+html {
+	font-size: 10px;
+	font-family: 'Montserrat', sans-serif;
+	scroll-behavior: smooth;
+}
 }
 /*font family*/
-html,
+
 body {
     font-family: "Poppins", sans-serif;
     color: #111;
@@ -22,6 +23,11 @@ body {
 h1 {
     font-size: 40px;
     font-weight: 480;
+    display: block;
+	width: fit-content;
+	font-size: 4rem;
+	position: relative;
+	color: transparent;
 }
 
 p {
@@ -170,14 +176,15 @@ section.home {
 }
 
 .navigation .social-bar {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 60px;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  flex-direction: column;
+	text-align: center;
+	max-width: 1500px;
+	margin: 0 auto;
+	padding: 100px 0;
+    background-color:#ffff;
+	font-weight: 200px;
+	color:azure;
+}
 }
 
 .navigation .social-bar a {
@@ -333,11 +340,18 @@ section.home {
 }
 
 .contact-form {
-    position: relative;
-    background: #f9f9f9;
-    border-radius: 20px;
-    width: calc(100% - 400px);
-    padding: 60px 40px 40px;
+    width: 80%;
+	padding: 20px;
+	text-align: center;
+	border-radius: 10px;
+	padding: 30px;
+	margin: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	box-shadow: 0px 0px 18px 0 #0000002c;
+	transition: 0.3s ease box-shadow;
 }
 
 .contact-form form {
@@ -372,6 +386,9 @@ section.home {
     font-weight: 300;
     margin: 10px 0;
     resize: none;
+}
+.contact-form:hover {
+	box-shadow: 0px 0px 5px 0 #0000002c;
 }
 
 /*GLOW EFFECT on FOCUS*/
@@ -641,7 +658,7 @@ section.home {
 }
 
 .testimonial-box:hover {
-    transform: translateY(-10px);
+    transform: translateY(-15px);
     transition: all ease 0.3s;
 }
 
@@ -657,14 +674,14 @@ section.home {
         width: 100%;
     }
     .testimonial-heading h1 {
-        font-size: 1.4rem;
+        font-size: 1.5rem;
     }
 }
 
 @media (max-width: 340px) {
     .box-top {
         flex-wrap: wrap;
-        margin-bottom: 10px;
+        margin-bottom: 5px;
     }
     .reviews {
         margin-top: 10px;
