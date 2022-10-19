@@ -79,11 +79,13 @@ section.home {
     left: 100px;
     color: yellowgreen;
     text-shadow: 2px 2px 8px blueviolet;
-    font-size: 3rem;
+    font-size: 5rem;
     font-weight: 700;
     z-index: 20;
-    background-color: burlywood;
-    border-radius: 10%;
+}
+
+.title {
+    text-shadow: 2px 2px 8px yellowgreen;
 }
 
 .logo.active {
