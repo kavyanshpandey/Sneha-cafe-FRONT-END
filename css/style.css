@@ -86,6 +86,9 @@ section.home {
 
 .title {
     text-shadow: 2px 2px 8px yellowgreen;
+    font-size: 3rem;
+    font-weight: 1000;
+    font-style: normal;
 }
 
 .logo.active {
