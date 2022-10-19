@@ -19,6 +19,11 @@ body {
     background-color: bisque;
 }
 
+.title h1{
+text-decoration:underline;
+color: red;	
+}
+
 h1 {
     font-size: 40px;
     font-weight: 480;
