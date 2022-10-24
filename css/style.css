@@ -77,7 +77,8 @@ section.home {
     font-weight: 700;
     z-index: 20;
     background-color: burlywood;
-    border-radius: 10%;
+    border-radius: 0.5rem;
+    padding: 0px 1.2%;
 }
 
 .logo.active {
