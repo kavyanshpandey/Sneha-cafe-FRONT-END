@@ -16,7 +16,7 @@ html,
 body {
     font-family: "Poppins", sans-serif;
     color: #111;
-    background-color: bisque;
+    background-color: #a6a6a6;
 }
 
 h1 {
@@ -76,7 +76,7 @@ section.home {
     font-size: 3rem;
     font-weight: 700;
     z-index: 20;
-    background-color: burlywood;
+    background-color: e6e6e6;
     border-radius: 10%;
 }
 
@@ -259,7 +259,7 @@ section.home {
 }
 
 .services .service:hover {
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.037);
 }
 
 .services .service h2 {
@@ -470,7 +470,7 @@ section.home {
 
 .service {
     border-radius: 10%;
-    background-color: burlywood;
+    background-color: #737373;
 }
 
 @media (max-width: 1068px) {
