@@ -16,7 +16,7 @@ html,
 body {
     font-family: "Poppins", sans-serif;
     color: #111;
-    background-color: bisque;
+    background-color: #a6a6a6;
 }
 
 h1 {
@@ -68,22 +68,26 @@ section.home {
 }
 
 .logo {
-    position: absolute;
+    /* position: absolute; */
     top: 30px;
     left: 100px;
     color: yellowgreen;
-    text-shadow: 2px 2px 8px blueviolet;
-    font-size: 3rem;
+    text-shadow: 2px 2px 8px rgb(104, 43, 226);
+    font-size: 4rem;
     font-weight: 700;
-    z-index: 20;
-    background-color: burlywood;
-    border-radius: 10%;
+    /* z-index: 20; */
+    background-color: #e6e6e6;
+    /* border-radius: 10%; */
+    justify-content: center;
+    display: flex;
+    margin: 0 auto;
 }
 
-.logo.active {
+/* .logo.active {
     color: #000000;
-    text-shadow: 2px 2px 8px #e0e0e0;
-}
+    /* text-shadow: 2px 2px 8px #e0e0e0; */
+    text-shadow: 2px 2px 8px rgb(104, 43, 226);
+} */
 
 /*  TOGGLE  */
 
@@ -259,7 +263,7 @@ section.home {
 }
 
 .services .service:hover {
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.037);
 }
 
 .services .service h2 {
@@ -470,7 +474,7 @@ section.home {
 
 .service {
     border-radius: 10%;
-    background-color: burlywood;
+    background-color: #737373;
 }
 
 @media (max-width: 1068px) {
