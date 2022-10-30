@@ -17,6 +17,12 @@ body {
     font-family: "Poppins", sans-serif;
     color: #111;
     background-color: bisque;
+    
+}
+.footer{
+    margin-top: 900px;
+    margin-left: 900px;
+    padding: 30px;
 }
 
 h1 {

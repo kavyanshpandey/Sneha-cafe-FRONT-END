@@ -1,40 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link
-            rel="icon"
-            href="https://img-premium.flaticon.com/png/512/4594/premium/4594828.png?token=exp=1633490558~hmac=787a7e8f464c8daf3b270f60d5241cfd"
-        />
-        <title>Sneha's Cafe Speacial Combo</title>
-        <link rel="stylesheet" href="css/style.css" />
-    </head>
 
-    <body>
-        <header>
-            <div class="logo" onclick="sendToHome()">Modern Cafe</div>
-            <div class="toggle"></div>
-            <div class="navigation">
-                <ul>
-                    <li><a href="index.html" class="underLine">Home</a></li>
-                    <li><a href="dishes.html" class="underLine">Dishes</a></li>
-                    <li>
-                        <a href="combo.html" class="underLine"
-                            >Our Special Combo</a
-                        >
-                    </li>
-                    <li>
-                        <a href="contact.html" class="underLine">Contact</a>
-                    </li>
-                    <li>
-                        <a href="review.html" class="underLine"
-                            >Customer Reviews</a
-                        >
-                    </li>
-                </ul>
-                <!-- <div class="social-bar">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon"
+        href="https://img-premium.flaticon.com/png/512/4594/premium/4594828.png?token=exp=1633490558~hmac=787a7e8f464c8daf3b270f60d5241cfd" />
+    <title>Sneha's Cafe Speacial Combo</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <header>
+        <div class="logo" onclick="sendToHome()">Modern Cafe</div>
+        <div class="toggle"></div>
+        <div class="navigation">
+            <ul>
+                <li><a href="index.html" class="underLine">Home</a></li>
+                <li><a href="dishes.html" class="underLine">Dishes</a></li>
+                <li>
+                    <a href="combo.html" class="underLine">Our Special Combo</a>
+                </li>
+                <li>
+                    <a href="contact.html" class="underLine">Contact</a>
+                </li>
+                <li>
+                    <a href="review.html" class="underLine">Customer Reviews</a>
+                </li>
+            </ul>
+            <!-- <div class="social-bar">
                 <ul>
                     <li>
                         <a href="https://facebook.com">
@@ -56,28 +51,31 @@
                     <img src="images/email.png" alt="" />
                 </a>
             </div> -->
-            </div>
-        </header>
-
-        <!-- Dark Mode -->
-        <div align="right">
-            <img
-                class="btn-dark"
-                src="https://img.icons8.com/ios-filled/40/000000/sun.png"
-                onclick="dark()"
-            />
         </div>
+        <style>
+            body {
+                overflow-y: hidden;
+                overflow-x: hidden;
+            }
+        </style>
+    </header>
 
-        <section class="home">
-            <img src="images/burger.jpg" class="home-img" alt="Cheese burger and coke" />
+    <!-- Dark Mode -->
+    <div align="right">
+        <img class="btn-dark" src="https://img.icons8.com/ios-filled/40/000000/sun.png" onclick="dark()" />
+    </div>
 
-            <div class="home-content">
-                <h1>Cheese burger and coke</h1>
-                <p>Try most popular combo<br /></p>
-                <a href="#" class="btn">Order Now</a>
-            </div>
-        </section>
+    <section class="home">
+        <img src="images/burger.jpg" class="home-img" alt="Cheese burger and coke" />
 
-        <script src="js/script.js"></script>
-    </body>
+        <div class="home-content">
+            <h1>Cheese burger and coke</h1>
+            <p>Try most popular combo<br /></p>
+            <a href="#" class="btn">Order Now</a>
+        </div>
+    </section>
+
+    <script src="js/script.js"></script>
+</body>
+
 </html>
