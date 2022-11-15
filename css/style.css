@@ -5,6 +5,7 @@
 }
 
 /*  BASE STYLES  */
+/*BASE*/
 
 * {
     box-sizing: border-box;
@@ -85,7 +86,7 @@ section.home {
     text-shadow: 2px 2px 8px #e0e0e0;
 }
 
-/*  TOGGLE  */
+/*  TOGGLE BUTTON  */
 
 .toggle {
     position: fixed;
@@ -685,3 +686,4 @@ section.home {
     color: #ffffff;
     background-color: #252525;
 }
+/*END*/
