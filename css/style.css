@@ -4,6 +4,7 @@
     --secondary-color: #1b206e;
 }
 
+
 /*  BASE STYLES  */
 
 * {
@@ -11,12 +12,15 @@
     margin: 0;
     padding: 0;
 }
+
+
 /*font family*/
+
 html,
 body {
     font-family: "Poppins", sans-serif;
     color: #111;
-    background-color: bisque;
+    background-color: Violet;
 }
 
 h1 {
@@ -43,6 +47,7 @@ section.home {
     margin-top: 0;
 }
 
+
 /*  BUTTON  */
 
 .btn {
@@ -63,6 +68,7 @@ section.home {
     transform: scale(0.98);
     background-color: rgb(117, 199, 3);
 }
+
 .btn-dark {
     padding: 10px 70px;
 }
@@ -73,17 +79,20 @@ section.home {
     left: 100px;
     color: yellowgreen;
     text-shadow: 2px 2px 8px blueviolet;
-    font-size: 3rem;
+    font-size: 5rem;
     font-weight: 700;
     z-index: 20;
-    background-color: burlywood;
-    border-radius: 10%;
+}
+
+.title {
+    text-shadow: 2px 2px 8px yellowgreen;
 }
 
 .logo.active {
     color: #000000;
     text-shadow: 2px 2px 8px #e0e0e0;
 }
+
 
 /*  TOGGLE  */
 
@@ -107,6 +116,7 @@ section.home {
     background-position: center;
     background-repeat: no-repeat;
 }
+
 
 /*  NAVIGATION  */
 
@@ -191,6 +201,7 @@ section.home {
     transform: scale(0.5);
 }
 
+
 /*  HOMEPAGE  */
 
 .home {
@@ -244,6 +255,7 @@ section.home {
     background-position: center center;
 }
 
+
 /*  SERVICES PAGE  */
 
 .services {
@@ -272,6 +284,7 @@ section.home {
 .services .service .icon img {
     max-width: 300px;
 }
+
 
 /*  WORK PAGE  */
 
@@ -320,6 +333,7 @@ section.home {
     border: 1px solid #fff;
     padding: 5px 15px;
 }
+
 
 /*  CONTACT  */
 
@@ -373,6 +387,7 @@ section.home {
     margin: 10px 0;
     resize: none;
 }
+
 
 /*GLOW EFFECT on FOCUS*/
 
@@ -446,7 +461,6 @@ section.home {
     .services .service {
         box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
     }
-
     .home-img {
         opacity: 0.5;
     }
@@ -454,6 +468,7 @@ section.home {
         display: none;
     }
 }
+
 @media (max-width: 500px) {
     .home-content h1 {
         font-size: revert;
@@ -465,6 +480,7 @@ section.home {
         font-size: x-large;
     }
 }
+
 
 /* icon */
 
