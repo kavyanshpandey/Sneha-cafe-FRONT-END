@@ -11,7 +11,7 @@ toggle.addEventListener('click', () => {
 //dark-light toggle
 function dark() {
   if (document.body.style.backgroundColor == "grey") {
-      document.body.style.backgroundColor = "bisque"
+      document.body.style.backgroundColor = "Violet";
       document.body.style.Color = "black"
   } else {
       document.body.style.backgroundColor = "grey";
