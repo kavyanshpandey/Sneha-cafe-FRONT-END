@@ -16,7 +16,8 @@ html,
 body {
     font-family: "Poppins", sans-serif;
     color: #111;
-    background-color: bisque;
+    background-color: rgb(80, 234, 237);
+    /* change made */
 }
 
 h1 {
