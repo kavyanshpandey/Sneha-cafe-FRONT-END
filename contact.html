@@ -59,31 +59,32 @@
         <img class="btn-dark" src="https://img.icons8.com/ios-filled/40/000000/sun.png" onclick="dark()" />
         </div>
 
-    <section>
-        <div class="title">
-            <h1>Contact us</h1>
-            <p>
-                We are always happy to here from your side,<br />
-                kindly submit your feedback or queries by filling this form.
-            </p>
-        </div>
-        <div class="contact">
-            <div class="contact-form">
-                <form onsubmit="return validateForm()">
-                    <div class="row">
-                        <div class="input50">
-                            <input type="text" placeholder="First Name" id="fname" /><span style="color:red" id="ferror"></span>
+ validation-in-contact-from
+        <section>
+            <div class="title">
+                <h1>Contact us</h1>
+                <p>
+                    We are always happy to here from your side,<br />
+                    kindly submit your feedback or queries by filling this form.
+                </p>
+            </div>
+            <div class="contact">
+                <div class="contact-form">
+                    <form name="myForm" onsubmit="return(validate());">
+                        <div class="row">
+                            <div class="input50">
+                                <input type="text" placeholder="First Name" name="first"/>
                             </div>
                             <div class="input50">
-                            <input type="text" placeholder="Last Name" id="lname" /><span style="color:red" id="lerror"></span>
+                                <input type="text" placeholder="Last Name" name="last"/>
                             </div>
-                            </div>
-                            <div class="row">
-                                <div class="input50">
-                            <input type="text" placeholder="Email" id="email" /><span style="color:red" id="eerror"></span>
+                        </div>
+                        <div class="row">
+                            <div class="input50">
+                                <input type="text" placeholder="Email" name="Email"/>
                             </div>
                             <div class="input50">
-                            <input type="text" placeholder="Subject" id="subject" />
+                                <input type="text" placeholder="Subject" name="sub"/>
                             </div>
                             </div>
                             <div class="row">
